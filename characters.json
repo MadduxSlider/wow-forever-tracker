@@ -51,6 +51,21 @@
       ]
     },
     {
+      "name": "Jamarr",
+      "characters": [
+        { "name": "Dio", "surname": "Nysus" },
+        { "name": "Akuma", "surname": "Bloodgorged" },
+        { "name": "Dæmon", "surname": "Targâryen" }
+      ]
+    },
+     {
+      "name": "Tim",
+      "characters": [
+        { "name": "Gelato", "surname": "Delicioso" },
+        { "name": "Hodorhodor", "surname": "Hodor" }
+      ]
+    },
+    {
       "name": "Cora",
       "characters": [
         { "name": "Cora", "surname": "Avatar" },
