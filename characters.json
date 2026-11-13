@@ -53,7 +53,10 @@
     {
       "name": "Cora",
       "characters": [
-        { "name": "Cora", "surname": "Avatar" }
+        { "name": "Cora", "surname": "Avatar" },
+        { "name": "Pocus", "surname": "Below" },
+        { "name": "Boat", "surname": "Show" },
+        { "name": "Bocus", "surname": "Cho" }
       ]
     },
     {
