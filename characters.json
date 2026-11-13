@@ -39,23 +39,27 @@
   },
   "friends": [
     {
-      "name": "Tim",
+      "name": "Simon",
       "characters": [
-        { "name": "Calutron", "surname": "Wheatfang" },
-        { "name": "Hefe", "surname": "Weizenson" },
-        { "name": "Belgara", "surname": "Bluemoon" }
+        { "name": "Arnim", "surname": "Rath" }
       ]
     },
     {
-      "name": "Gabe",
+      "name": "Evan",
       "characters": [
-        { "name": "Tired", "surname": "Mexican" }
+        { "name": "Bannick", "surname": "Greymont" }
       ]
     },
     {
-      "name": "Kris",
+      "name": "Cora",
       "characters": [
-        { "name": "Daxii", "surname": "Highwind" }
+        { "name": "Cora", "surname": "Avatar" }
+      ]
+    },
+    {
+      "name": "Alexander",
+      "characters": [
+        { "name": "Meiji", "surname": "Restore" }
       ]
     }
   ]
