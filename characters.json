@@ -45,6 +45,12 @@
       ]
     },
     {
+      "name": "Don",
+      "characters": [
+        { "name": "Dezriloc", "surname": "Magenar" }
+      ]
+    },
+    {
       "name": "Evan",
       "characters": [
         { "name": "Bannick", "surname": "Greymont" }
