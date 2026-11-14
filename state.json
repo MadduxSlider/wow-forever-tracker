@@ -318,12 +318,17 @@
       "boss_kills": {},
       "class": "Shaman",
       "dungeons": {},
-      "gear": {},
-      "level": 13,
+      "gear": {
+        "252426": {
+          "name": "Murloc Scale Shoes",
+          "quality": "RARE"
+        }
+      },
+      "level": 14,
       "professions": {
         "Cooking": 1,
-        "Leatherworking": 30,
-        "Skinning": 77
+        "Leatherworking": 46,
+        "Skinning": 86
       },
       "race": "Orc",
       "raids": {},
@@ -333,14 +338,9 @@
           "raw": 525,
           "tier": 3
         },
-        "Darkspear Raiders": {
-          "name": "Neutral",
-          "raw": 0,
-          "tier": 3
-        },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 7495,
+          "raw": 7520,
           "tier": 4
         },
         "Everlook": {
@@ -354,9 +354,9 @@
           "tier": 3
         },
         "Orgrimmar": {
-          "name": "Friendly",
-          "raw": 8970,
-          "tier": 4
+          "name": "Honored",
+          "raw": 9070,
+          "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
@@ -370,12 +370,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3225,
+          "raw": 3250,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 625,
+          "raw": 650,
           "tier": 3
         }
       },
@@ -386,12 +386,12 @@
         "flights": 2,
         "food": 2,
         "health_potions": 1,
-        "hearths": 2,
-        "killing_blows": 279,
-        "mobs": 349,
-        "quests": 67
+        "hearths": 3,
+        "killing_blows": 307,
+        "mobs": 377,
+        "quests": 71
       },
-      "xp": 5966
+      "xp": 1300
     },
     "us:bocus-cho": {
       "achievements": {
@@ -1318,25 +1318,30 @@
       "class": "Warrior",
       "dungeons": {},
       "gear": {},
-      "level": 10,
+      "level": 12,
       "professions": {
-        "Blacksmithing": 31,
+        "Blacksmithing": 51,
         "Cooking": 1,
-        "First Aid": 42,
-        "Mining": 52
+        "First Aid": 54,
+        "Mining": 63
       },
       "race": "Orc",
       "raids": {},
       "reputations": {
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 5835,
+          "raw": 6660,
           "tier": 4
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 7010,
+          "raw": 7910,
           "tier": 4
+        },
+        "Ratchet": {
+          "name": "Neutral",
+          "raw": 900,
+          "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
@@ -1351,13 +1356,13 @@
       },
       "spec": "Fury",
       "stats": {
-        "deaths": 1,
-        "health_potions": 1,
-        "killing_blows": 161,
-        "mobs": 178,
-        "quests": 38
+        "deaths": 5,
+        "health_potions": 2,
+        "killing_blows": 267,
+        "mobs": 324,
+        "quests": 49
       },
-      "xp": 287
+      "xp": 3374
     },
     "us:tired-mexican": {
       "achievements": {
