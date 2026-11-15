@@ -1326,51 +1326,77 @@
       "class": "Warrior",
       "dungeons": {},
       "gear": {},
-      "level": 12,
+      "level": 14,
       "professions": {
         "Blacksmithing": 51,
         "Cooking": 1,
-        "First Aid": 54,
-        "Mining": 63
+        "First Aid": 65,
+        "Mining": 69
       },
       "race": "Orc",
       "raids": {},
       "reputations": {
+        "Booty Bay": {
+          "name": "Neutral",
+          "raw": 787,
+          "tier": 3
+        },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 6660,
+          "raw": 7407,
           "tier": 4
+        },
+        "Durotar Supply and Logistics": {
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3
+        },
+        "Everlook": {
+          "name": "Neutral",
+          "raw": 787,
+          "tier": 3
+        },
+        "Gadgetzan": {
+          "name": "Neutral",
+          "raw": 787,
+          "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 7910,
+          "raw": 8845,
           "tier": 4
+        },
+        "Powderfuse": {
+          "name": "Neutral",
+          "raw": 787,
+          "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 900,
+          "raw": 1475,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3150,
+          "raw": 3212,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 550,
+          "raw": 612,
           "tier": 3
         }
       },
       "spec": "Fury",
       "stats": {
-        "deaths": 5,
+        "deaths": 7,
+        "flights": 3,
         "health_potions": 2,
-        "killing_blows": 267,
-        "mobs": 324,
-        "quests": 49
+        "killing_blows": 336,
+        "mobs": 421,
+        "quests": 70
       },
-      "xp": 3374
+      "xp": 1312
     },
     "us:tired-mexican": {
       "achievements": {
