@@ -701,7 +701,7 @@
       "professions": {
         "Cooking": 1,
         "Engineering": 111,
-        "Mining": 104
+        "Mining": 105
       },
       "race": "Troll",
       "raids": {},
@@ -718,12 +718,17 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 8755,
+          "raw": 8780,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
           "name": "Neutral",
           "raw": 2000,
+          "tier": 3
+        },
+        "Earthen Ring": {
+          "name": "Neutral",
+          "raw": 100,
           "tier": 3
         },
         "Everlook": {
@@ -738,7 +743,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 8911,
+          "raw": 8917,
           "tier": 4
         },
         "Powderfuse": {
@@ -753,12 +758,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4753,
+          "raw": 4760,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 2535,
+          "raw": 2541,
           "tier": 3
         },
         "Warsong Outriders": {
@@ -772,17 +777,17 @@
         "critters": 7,
         "deaths": 35,
         "drinks": 49,
-        "flights": 30,
+        "flights": 32,
         "food": 3,
         "health_potions": 13,
-        "hearths": 10,
+        "hearths": 11,
         "honorable_kills": 163,
         "killing_blows": 757,
         "mana_potions": 1,
         "mobs": 1075,
-        "quests": 134
+        "quests": 136
       },
-      "xp": 20201
+      "xp": 23076
     },
     "us:dio-nysus": {
       "achievements": {
