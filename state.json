@@ -405,52 +405,54 @@
       "class": "Rogue",
       "dungeons": {},
       "gear": {},
-      "level": 10,
+      "level": 14,
       "professions": {
-        "Alchemy": 20,
+        "Alchemy": 60,
         "Cooking": 1,
-        "Herbalism": 50
+        "First Aid": 50,
+        "Herbalism": 78
       },
       "race": "Undead",
       "raids": {},
       "reputations": {
         "Argent Dawn": {
           "name": "Neutral",
-          "raw": 350,
+          "raw": 650,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2025,
+          "raw": 2198,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Neutral",
-          "raw": 2025,
+          "raw": 2198,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 525,
+          "raw": 698,
           "tier": 3
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 6875,
+          "raw": 8930,
           "tier": 4
         }
       },
-      "spec": null,
+      "spec": "Combat",
       "stats": {
-        "deaths": 2,
+        "deaths": 6,
+        "flights": 2,
         "food": 2,
-        "health_potions": 1,
-        "hearths": 1,
-        "killing_blows": 220,
-        "mobs": 228,
-        "quests": 39
+        "health_potions": 2,
+        "hearths": 3,
+        "killing_blows": 383,
+        "mobs": 441,
+        "quests": 76
       },
-      "xp": 2082
+      "xp": 702
     },
     "us:cora-avatar": {
       "achievements": {
@@ -1242,12 +1244,12 @@
         },
         "Cenarion Circle": {
           "name": "Neutral",
-          "raw": 2235,
+          "raw": 2385,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2820,
+          "raw": 2845,
           "tier": 3
         },
         "Earthen Ring": {
@@ -1272,7 +1274,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 3626,
+          "raw": 3651,
           "tier": 4
         },
         "Powderfuse": {
@@ -1287,12 +1289,17 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4415,
+          "raw": 4440,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 2653,
+          "raw": 2753,
+          "tier": 3
+        },
+        "Warsong Outriders": {
+          "name": "Neutral",
+          "raw": 0,
           "tier": 3
         },
         "Windshapers": {
@@ -1306,7 +1313,7 @@
         "critters": 9,
         "deaths": 32,
         "drinks": 20,
-        "flights": 13,
+        "flights": 14,
         "food": 15,
         "health_potions": 7,
         "hearths": 5,
@@ -1314,9 +1321,9 @@
         "mana_potions": 7,
         "mobs": 1350,
         "need_rolls": 5,
-        "quests": 151
+        "quests": 157
       },
-      "xp": 13829
+      "xp": 17464
     },
     "us:pocus-below": {
       "achievements": {
