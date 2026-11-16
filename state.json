@@ -183,13 +183,13 @@
           "quality": "RARE"
         }
       },
-      "level": 19,
+      "level": 20,
       "professions": {
-        "Blacksmithing": 89,
+        "Blacksmithing": 97,
         "Cooking": 75,
-        "First Aid": 80,
-        "Fishing": 79,
-        "Mining": 105
+        "First Aid": 85,
+        "Fishing": 90,
+        "Mining": 113
       },
       "race": "Undead",
       "raids": {},
@@ -199,50 +199,70 @@
           "raw": 1050,
           "tier": 3
         },
-        "Darkspear Trolls": {
+        "Booty Bay": {
           "name": "Neutral",
-          "raw": 2981,
+          "raw": 525,
           "tier": 3
+        },
+        "Darkspear Trolls": {
+          "name": "Friendly",
+          "raw": 3268,
+          "tier": 4
         },
         "Durotar Supply and Logistics": {
           "name": "Neutral",
           "raw": 2000,
           "tier": 3
         },
+        "Everlook": {
+          "name": "Neutral",
+          "raw": 525,
+          "tier": 3
+        },
+        "Gadgetzan": {
+          "name": "Neutral",
+          "raw": 525,
+          "tier": 3
+        },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 3618,
+          "raw": 3981,
           "tier": 4
+        },
+        "Powderfuse": {
+          "name": "Neutral",
+          "raw": 525,
+          "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 500,
+          "raw": 550,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 1751,
+          "raw": 2095,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 11577,
+          "raw": 12596,
           "tier": 5
         }
       },
       "spec": "Retribution",
       "stats": {
         "deaths": 3,
-        "flights": 13,
-        "food": 31,
-        "health_potions": 8,
-        "hearths": 17,
-        "killing_blows": 1014,
-        "mobs": 1166,
+        "flights": 17,
+        "food": 35,
+        "health_potions": 9,
+        "hearths": 20,
+        "killing_blows": 1127,
+        "mobs": 1324,
         "need_rolls": 5,
-        "quests": 137
+        "quests": 148
       },
-      "xp": 404
+      "xp": 3918
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -432,23 +452,23 @@
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2198,
+          "raw": 2280,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Neutral",
-          "raw": 2198,
+          "raw": 2392,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 698,
+          "raw": 780,
           "tier": 3
         },
         "Undercity": {
-          "name": "Friendly",
-          "raw": 8930,
-          "tier": 4
+          "name": "Honored",
+          "raw": 9142,
+          "tier": 5
         }
       },
       "spec": "Combat",
@@ -457,12 +477,12 @@
         "flights": 2,
         "food": 2,
         "health_potions": 2,
-        "hearths": 3,
-        "killing_blows": 383,
-        "mobs": 441,
-        "quests": 76
+        "hearths": 4,
+        "killing_blows": 396,
+        "mobs": 455,
+        "quests": 80
       },
-      "xp": 702
+      "xp": 5392
     },
     "us:cora-avatar": {
       "achievements": {
@@ -822,83 +842,88 @@
           "quality": "RARE"
         }
       },
-      "level": 16,
+      "level": 19,
       "professions": {
         "Alchemy": 82,
-        "Cooking": 110,
+        "Cooking": 111,
         "First Aid": 75,
         "Fishing": 101,
-        "Herbalism": 82
+        "Herbalism": 88
       },
       "race": "Tauren",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 530,
+          "raw": 672,
           "tier": 3
         },
         "Cenarion Circle": {
           "name": "Neutral",
-          "raw": 2360,
+          "raw": 2785,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3573,
+          "raw": 3963,
           "tier": 4
+        },
+        "Durotar Supply and Logistics": {
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 530,
+          "raw": 672,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 530,
+          "raw": 672,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4098,
+          "raw": 5351,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 530,
+          "raw": 672,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 560,
+          "raw": 845,
           "tier": 3
         },
         "Thunder Bluff": {
-          "name": "Friendly",
-          "raw": 8932,
-          "tier": 4
+          "name": "Honored",
+          "raw": 9498,
+          "tier": 5
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1011,
+          "raw": 1532,
           "tier": 3
         }
       },
       "spec": "Feral Combat",
       "stats": {
         "critters": 2,
-        "deaths": 15,
-        "drinks": 10,
-        "flights": 1,
-        "food": 15,
-        "health_potions": 23,
-        "hearths": 6,
-        "killing_blows": 492,
-        "mobs": 842,
+        "deaths": 21,
+        "drinks": 11,
+        "flights": 3,
+        "food": 16,
+        "health_potions": 26,
+        "hearths": 9,
+        "killing_blows": 633,
+        "mobs": 1026,
         "need_rolls": 7,
-        "quests": 85
+        "quests": 111
       },
-      "xp": 13405
+      "xp": 4619
     },
     "us:gelato-delicioso": {
       "achievements": {
@@ -945,7 +970,7 @@
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2893,
+          "raw": 2956,
           "tier": 3
         },
         "Earthen Ring": {
@@ -970,7 +995,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4262,
+          "raw": 4325,
           "tier": 4
         },
         "Powderfuse": {
@@ -985,12 +1010,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4406,
+          "raw": 4468,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1693,
+          "raw": 2118,
           "tier": 3
         },
         "Windshapers": {
@@ -1002,19 +1027,19 @@
       "spec": "Enhancement",
       "stats": {
         "critters": 2,
-        "deaths": 6,
-        "drinks": 23,
-        "flights": 8,
+        "deaths": 7,
+        "drinks": 25,
+        "flights": 10,
         "food": 13,
         "health_potions": 8,
         "hearths": 6,
-        "killing_blows": 920,
+        "killing_blows": 1004,
         "mana_potions": 5,
-        "mobs": 1234,
+        "mobs": 1325,
         "need_rolls": 6,
-        "quests": 147
+        "quests": 151
       },
-      "xp": 15866
+      "xp": 22022
     },
     "us:hefe-weizenson": {
       "achievements": {
@@ -1580,168 +1605,210 @@
   "weekly": {
     "baseline": {
       "us:akuma-bloodgorged": {
-        "achievements": 0,
+        "achievements": 3,
         "clears": {},
         "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
+        "level": 10,
+        "professions": {
+          "Cooking": 1,
+          "Enchanting": 9,
+          "First Aid": 1,
+          "Tailoring": 65
+        },
+        "rep": {
+          "Darkspear Trolls": 6120,
+          "Orgrimmar": 7295,
+          "Thunder Bluff": 3150,
+          "Undercity": 550
+        },
+        "stats": {
+          "deaths": 3,
+          "food": 4,
+          "health_potions": 4,
+          "hearths": 2,
+          "killing_blows": 173,
+          "mobs": 213,
+          "quests": 42
+        },
+        "xp": 6074
       },
       "us:arnim-rath": {
         "achievements": 0,
         "clears": {},
         "epics": [],
-        "level": 18,
+        "level": 20,
         "professions": {
-          "Cooking": 135,
-          "Enchanting": 64,
-          "First Aid": 63,
-          "Fishing": 150,
-          "Tailoring": 55
+          "Cooking": 150,
+          "Enchanting": 73,
+          "First Aid": 79,
+          "Fishing": 225,
+          "Tailoring": 63
         },
         "rep": {
           "Argent Dawn": 1050,
-          "Darkspear Trolls": 2925,
-          "Orgrimmar": 3907,
-          "Thunder Bluff": 1518,
-          "Undercity": 10658
+          "Booty Bay": 1055,
+          "Darkspear Trolls": 3371,
+          "Everlook": 1055,
+          "Gadgetzan": 1055,
+          "Orgrimmar": 5385,
+          "Powderfuse": 1055,
+          "Ratchet": 1611,
+          "Thunder Bluff": 2122,
+          "Undercity": 11105
         },
         "stats": {
-          "deaths": 4,
-          "flights": 1,
-          "food": 12,
-          "hearths": 9,
-          "killing_blows": 623,
-          "mobs": 794,
+          "deaths": 15,
+          "flights": 5,
+          "food": 24,
+          "hearths": 15,
+          "killing_blows": 786,
+          "mobs": 1014,
           "need_rolls": 2,
-          "quests": 119
+          "quests": 152
         },
-        "xp": 5673
+        "xp": 18650
       },
       "us:bannick-greymont": {
         "achievements": 0,
         "clears": {},
         "epics": [],
-        "level": 16,
+        "level": 20,
         "professions": {
-          "Blacksmithing": 74,
-          "Cooking": 64,
-          "First Aid": 80,
-          "Fishing": 75,
-          "Mining": 76
+          "Blacksmithing": 97,
+          "Cooking": 75,
+          "First Aid": 85,
+          "Fishing": 90,
+          "Mining": 113
         },
         "rep": {
-          "Argent Dawn": 950,
-          "Darkspear Trolls": 2350,
-          "Orgrimmar": 2537,
-          "Thunder Bluff": 850,
-          "Undercity": 9772
+          "Argent Dawn": 1050,
+          "Booty Bay": 525,
+          "Darkspear Trolls": 3268,
+          "Durotar Supply and Logistics": 2000,
+          "Everlook": 525,
+          "Gadgetzan": 525,
+          "Orgrimmar": 3981,
+          "Powderfuse": 525,
+          "Ratchet": 550,
+          "Thunder Bluff": 2095,
+          "Undercity": 12596
         },
         "stats": {
           "deaths": 3,
-          "flights": 7,
-          "food": 21,
-          "health_potions": 6,
-          "hearths": 13,
-          "killing_blows": 709,
-          "mobs": 859,
+          "flights": 17,
+          "food": 35,
+          "health_potions": 9,
+          "hearths": 20,
+          "killing_blows": 1127,
+          "mobs": 1324,
           "need_rolls": 5,
-          "quests": 94
+          "quests": 148
         },
-        "xp": 2681
+        "xp": 3918
       },
-      "us:belgara-bluemoon": {
+      "us:boat-show": {
         "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 10,
+        "level": 14,
         "professions": {
-          "Cooking": 13,
-          "Fishing": 1,
-          "Leatherworking": 29,
-          "Skinning": 65
+          "Cooking": 1,
+          "Leatherworking": 46,
+          "Skinning": 86
         },
         "rep": {
-          "Cenarion Circle": 2100,
-          "Darnassus": 500,
-          "Gnomeregan Exiles": 2000,
-          "High Order": 4965,
-          "Ironforge": 2000,
-          "Kirin Tor": 3000,
-          "Nightclaw Druids": 100,
-          "Stormwind": 3100
+          "Booty Bay": 525,
+          "Darkspear Trolls": 7545,
+          "Everlook": 525,
+          "Gadgetzan": 525,
+          "Orgrimmar": 9170,
+          "Powderfuse": 525,
+          "Ratchet": 950,
+          "Thunder Bluff": 3275,
+          "Undercity": 675
         },
         "stats": {
-          "deaths": 2,
-          "drinks": 11,
+          "deaths": 3,
+          "drinks": 3,
+          "flights": 3,
+          "food": 2,
+          "health_potions": 1,
           "hearths": 4,
-          "killing_blows": 212,
-          "mobs": 223,
-          "quests": 52
+          "killing_blows": 307,
+          "mobs": 377,
+          "quests": 72
         },
-        "xp": 5654
-      },
-      "us:boat-show": {
-        "achievements": 0,
-        "clears": {},
-        "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
+        "xp": 2576
       },
       "us:bocus-cho": {
-        "achievements": 0,
+        "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
+        "level": 14,
+        "professions": {
+          "Alchemy": 60,
+          "Cooking": 1,
+          "First Aid": 50,
+          "Herbalism": 78
+        },
+        "rep": {
+          "Argent Dawn": 650,
+          "Darkspear Trolls": 2280,
+          "Orgrimmar": 2392,
+          "Thunder Bluff": 780,
+          "Undercity": 9142
+        },
+        "stats": {
+          "deaths": 6,
+          "flights": 2,
+          "food": 2,
+          "health_potions": 2,
+          "hearths": 4,
+          "killing_blows": 396,
+          "mobs": 455,
+          "quests": 80
+        },
+        "xp": 5392
       },
       "us:cora-avatar": {
         "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 20,
+        "level": 21,
         "professions": {
           "Cooking": 130,
-          "Enchanting": 39,
+          "Enchanting": 43,
           "First Aid": 80,
           "Fishing": 150,
           "Tailoring": 55
         },
         "rep": {
           "Booty Bay": 1691,
-          "Darkspear Trolls": 9125,
+          "Darkspear Trolls": 9237,
           "Everlook": 1691,
           "Gadgetzan": 1691,
-          "Orgrimmar": 10462,
+          "Orgrimmar": 10575,
           "Powderfuse": 1691,
           "Ratchet": 2982,
-          "Thunder Bluff": 5233,
-          "Undercity": 2048
+          "Thunder Bluff": 5346,
+          "Undercity": 2673
         },
         "stats": {
           "deaths": 12,
-          "drinks": 160,
-          "flights": 11,
-          "food": 44,
+          "drinks": 175,
+          "flights": 13,
+          "food": 49,
           "health_potions": 11,
           "hearths": 10,
-          "killing_blows": 630,
-          "mobs": 997,
+          "killing_blows": 721,
+          "mobs": 1088,
           "need_rolls": 5,
-          "quests": 129
+          "quests": 134
         },
-        "xp": 14371
+        "xp": 398
       },
       "us:d%C3%A6mon-targ%C3%A2ryen": {
-        "achievements": 2,
+        "achievements": 3,
         "clears": {},
         "epics": [],
         "level": 15,
@@ -1775,94 +1842,86 @@
         },
         "xp": 10801
       },
-      "us:daxii-highwind": {
-        "achievements": 0,
-        "clears": {},
-        "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
-      },
       "us:dezriloc-magenar": {
         "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 19,
+        "level": 20,
         "professions": {
           "Cooking": 1,
           "Engineering": 111,
-          "Mining": 98
+          "Mining": 105
         },
         "rep": {
           "Argent Dawn": 350,
           "Booty Bay": 1997,
-          "Darkspear Raiders": 0,
-          "Darkspear Trolls": 8536,
+          "Darkspear Trolls": 8780,
+          "Durotar Supply and Logistics": 2000,
+          "Earthen Ring": 100,
           "Everlook": 1997,
           "Gadgetzan": 1997,
-          "Orgrimmar": 8692,
+          "Orgrimmar": 8917,
           "Powderfuse": 1997,
           "Ratchet": 3495,
-          "Thunder Bluff": 4460,
-          "Undercity": 1735,
+          "Thunder Bluff": 4760,
+          "Undercity": 2541,
           "Warsong Outriders": 460
         },
         "stats": {
           "critters": 7,
-          "deaths": 33,
-          "drinks": 43,
-          "flights": 20,
+          "deaths": 35,
+          "drinks": 49,
+          "flights": 34,
           "food": 3,
-          "health_potions": 11,
-          "hearths": 8,
+          "health_potions": 13,
+          "hearths": 11,
           "honorable_kills": 163,
-          "killing_blows": 644,
+          "killing_blows": 757,
           "mana_potions": 1,
-          "mobs": 932,
-          "quests": 121
+          "mobs": 1075,
+          "quests": 136
         },
-        "xp": 18701
+        "xp": 23076
       },
       "us:dio-nysus": {
-        "achievements": 2,
+        "achievements": 3,
         "clears": {},
         "epics": [],
-        "level": 16,
+        "level": 19,
         "professions": {
           "Alchemy": 82,
-          "Cooking": 110,
+          "Cooking": 111,
           "First Aid": 75,
           "Fishing": 101,
-          "Herbalism": 82
+          "Herbalism": 88
         },
         "rep": {
-          "Booty Bay": 525,
-          "Cenarion Circle": 2360,
-          "Darkspear Trolls": 3573,
-          "Everlook": 525,
-          "Gadgetzan": 525,
-          "Orgrimmar": 4098,
-          "Powderfuse": 525,
-          "Ratchet": 550,
-          "Thunder Bluff": 8932,
-          "Undercity": 1011
+          "Booty Bay": 672,
+          "Cenarion Circle": 2785,
+          "Darkspear Trolls": 3963,
+          "Durotar Supply and Logistics": 2000,
+          "Everlook": 672,
+          "Gadgetzan": 672,
+          "Orgrimmar": 5351,
+          "Powderfuse": 672,
+          "Ratchet": 845,
+          "Thunder Bluff": 9498,
+          "Undercity": 1532
         },
         "stats": {
           "critters": 2,
-          "deaths": 14,
-          "drinks": 10,
-          "flights": 1,
-          "food": 15,
-          "health_potions": 23,
-          "hearths": 4,
-          "killing_blows": 489,
-          "mobs": 839,
+          "deaths": 21,
+          "drinks": 11,
+          "flights": 3,
+          "food": 16,
+          "health_potions": 26,
+          "hearths": 9,
+          "killing_blows": 633,
+          "mobs": 1026,
           "need_rolls": 7,
-          "quests": 85
+          "quests": 111
         },
-        "xp": 12518
+        "xp": 4619
       },
       "us:gelato-delicioso": {
         "achievements": 1,
@@ -1873,188 +1932,155 @@
           "Cooking": 64,
           "First Aid": 97,
           "Fishing": 82,
-          "Leatherworking": 95,
-          "Skinning": 142
+          "Leatherworking": 100,
+          "Skinning": 143
         },
         "rep": {
-          "Booty Bay": 1083,
-          "Darkspear Trolls": 2806,
-          "Durotar Supply and Logistics": 0,
+          "Booty Bay": 1214,
+          "Darkspear Trolls": 2956,
           "Earthen Ring": 700,
-          "Everlook": 1083,
-          "Gadgetzan": 1083,
+          "Everlook": 1214,
+          "Gadgetzan": 1214,
           "Nightclaw Druids": 5100,
-          "Orgrimmar": 3912,
-          "Powderfuse": 1083,
-          "Ratchet": 1667,
-          "Thunder Bluff": 4318,
-          "Undercity": 1606,
+          "Orgrimmar": 4325,
+          "Powderfuse": 1214,
+          "Ratchet": 1928,
+          "Thunder Bluff": 4468,
+          "Undercity": 2118,
           "Windshapers": 6260
         },
         "stats": {
           "critters": 2,
-          "deaths": 6,
-          "drinks": 20,
-          "flights": 5,
-          "food": 12,
+          "deaths": 7,
+          "drinks": 25,
+          "flights": 10,
+          "food": 13,
           "health_potions": 8,
-          "hearths": 5,
-          "killing_blows": 888,
-          "mana_potions": 4,
-          "mobs": 1179,
-          "need_rolls": 5,
-          "quests": 140
+          "hearths": 6,
+          "killing_blows": 1004,
+          "mana_potions": 5,
+          "mobs": 1325,
+          "need_rolls": 6,
+          "quests": 151
         },
-        "xp": 856
-      },
-      "us:hefe-weizenson": {
-        "achievements": 1,
-        "clears": {
-          "Hall of Thanes": 1,
-          "The Deadmines": 1
-        },
-        "epics": [],
-        "level": 22,
-        "professions": {
-          "Blacksmithing": 120,
-          "Cooking": 78,
-          "First Aid": 14,
-          "Fishing": 1,
-          "Mining": 121
-        },
-        "rep": {
-          "Darnassus": 4442,
-          "Gadgetzan": 600,
-          "Gnomeregan Exiles": 8602,
-          "Ironforge": 11703,
-          "Silverwing Sentinels": 255,
-          "Stormwind": 6143
-        },
-        "stats": {
-          "critters": 20,
-          "deaths": 19,
-          "drinks": 50,
-          "flights": 14,
-          "food": 15,
-          "health_potions": 33,
-          "hearths": 12,
-          "honorable_kills": 50,
-          "killing_blows": 730,
-          "mana_potions": 9,
-          "mobs": 1672,
-          "need_rolls": 9,
-          "quests": 150
-        },
-        "xp": 6050
+        "xp": 22022
       },
       "us:hodorhodor-hodor": {
-        "achievements": 0,
+        "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
+        "level": 12,
+        "professions": {
+          "Alchemy": 52,
+          "Cooking": 48,
+          "First Aid": 44,
+          "Fishing": 1,
+          "Herbalism": 61
+        },
+        "rep": {
+          "Cenarion Circle": 2200,
+          "Darkspear Trolls": 3175,
+          "Orgrimmar": 3175,
+          "Thunder Bluff": 7505,
+          "Undercity": 575
+        },
+        "stats": {
+          "deaths": 4,
+          "drinks": 8,
+          "food": 4,
+          "health_potions": 1,
+          "hearths": 1,
+          "killing_blows": 348,
+          "mobs": 388,
+          "quests": 51
+        },
+        "xp": 4073
       },
       "us:meiji-restore": {
         "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 17,
+        "level": 20,
         "professions": {
           "Cooking": 1,
-          "Leatherworking": 74,
-          "Skinning": 81
+          "Leatherworking": 79,
+          "Skinning": 110
         },
         "rep": {
-          "Cenarion Circle": 2135,
-          "Darkspear Trolls": 2168,
+          "Booty Bay": 892,
+          "Cenarion Circle": 2385,
+          "Darkspear Trolls": 2845,
           "Earthen Ring": 600,
+          "Everlook": 892,
+          "Gadgetzan": 892,
           "Nightclaw Druids": 5300,
-          "Orgrimmar": 2487,
-          "Thunder Bluff": 3456,
-          "Undercity": 668,
+          "Orgrimmar": 3651,
+          "Powderfuse": 892,
+          "Ratchet": 1285,
+          "Thunder Bluff": 4440,
+          "Undercity": 2753,
           "Warsong Outriders": 0,
           "Windshapers": 6010
         },
         "stats": {
-          "critters": 5,
-          "deaths": 22,
-          "drinks": 12,
-          "flights": 5,
-          "food": 10,
-          "health_potions": 3,
-          "hearths": 4,
-          "killing_blows": 668,
-          "mana_potions": 5,
-          "mobs": 939,
-          "need_rolls": 4,
-          "quests": 109
+          "critters": 9,
+          "deaths": 32,
+          "drinks": 20,
+          "flights": 14,
+          "food": 15,
+          "health_potions": 7,
+          "hearths": 5,
+          "killing_blows": 1015,
+          "mana_potions": 7,
+          "mobs": 1350,
+          "need_rolls": 5,
+          "quests": 157
         },
-        "xp": 1789
+        "xp": 17464
       },
       "us:pocus-below": {
-        "achievements": 0,
+        "achievements": 1,
         "clears": {},
         "epics": [],
-        "level": 1,
-        "professions": {},
-        "rep": {},
-        "stats": {},
-        "xp": 0
-      },
-      "us:tired-mexican": {
-        "achievements": 1,
-        "clears": {
-          "Hall of Thanes": 1,
-          "The Deadmines": 1
-        },
-        "epics": [],
-        "level": 21,
+        "level": 14,
         "professions": {
-          "Cooking": 23,
-          "Engineering": 101,
-          "First Aid": 1,
-          "Fishing": 20,
-          "Mining": 102
+          "Blacksmithing": 51,
+          "Cooking": 1,
+          "First Aid": 65,
+          "Mining": 69
         },
         "rep": {
-          "Azeroth Commerce Authority": 0,
-          "Darnassus": 4290,
-          "Gadgetzan": 600,
-          "Gnomeregan Exiles": 8468,
-          "Ironforge": 11401,
-          "Silverwing Sentinels": 255,
-          "Stormwind": 5590
+          "Booty Bay": 787,
+          "Darkspear Trolls": 7407,
+          "Durotar Supply and Logistics": 2000,
+          "Everlook": 787,
+          "Gadgetzan": 787,
+          "Orgrimmar": 8845,
+          "Powderfuse": 787,
+          "Ratchet": 1475,
+          "Thunder Bluff": 3212,
+          "Undercity": 612
         },
         "stats": {
-          "critters": 21,
-          "deaths": 23,
-          "drinks": 24,
-          "flights": 26,
-          "food": 22,
-          "health_potions": 10,
-          "hearths": 6,
-          "honorable_kills": 52,
-          "killing_blows": 936,
-          "mana_potions": 1,
-          "mobs": 1569,
-          "need_rolls": 20,
-          "quests": 142
+          "deaths": 7,
+          "flights": 3,
+          "health_potions": 2,
+          "killing_blows": 336,
+          "mobs": 421,
+          "quests": 70
         },
-        "xp": 16326
+        "xp": 1312
       }
     },
     "last_awards": [
+      "critters",
+      "achievements",
+      "rep",
+      "killing_blows",
       "potions",
-      "need_rolls",
-      "hearths",
-      "flights",
-      "snacks",
-      "crafter"
+      "snacks"
     ],
-    "last_recap": "2026-11-09T03:00:21.982362+00:00",
-    "recaps_posted": 1
+    "last_recap": "2026-11-16T07:52:49.621277+00:00",
+    "recaps_posted": 2
   }
 }
