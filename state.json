@@ -183,13 +183,13 @@
           "quality": "RARE"
         }
       },
-      "level": 18,
+      "level": 19,
       "professions": {
         "Blacksmithing": 89,
         "Cooking": 75,
         "First Aid": 80,
         "Fishing": 79,
-        "Mining": 104
+        "Mining": 105
       },
       "race": "Undead",
       "raids": {},
@@ -201,38 +201,48 @@
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2803,
+          "raw": 2981,
+          "tier": 3
+        },
+        "Durotar Supply and Logistics": {
+          "name": "Neutral",
+          "raw": 2000,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 3178,
+          "raw": 3618,
           "tier": 4
+        },
+        "Ratchet": {
+          "name": "Neutral",
+          "raw": 500,
+          "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 1378,
+          "raw": 1751,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 11325,
+          "raw": 11577,
           "tier": 5
         }
       },
       "spec": "Retribution",
       "stats": {
         "deaths": 3,
-        "flights": 11,
-        "food": 28,
+        "flights": 13,
+        "food": 31,
         "health_potions": 8,
         "hearths": 17,
-        "killing_blows": 933,
-        "mobs": 1086,
+        "killing_blows": 1014,
+        "mobs": 1166,
         "need_rolls": 5,
-        "quests": 124
+        "quests": 137
       },
-      "xp": 4015
+      "xp": 404
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -779,7 +789,7 @@
         "critters": 7,
         "deaths": 35,
         "drinks": 49,
-        "flights": 32,
+        "flights": 34,
         "food": 3,
         "health_potions": 13,
         "hearths": 11,
