@@ -15,11 +15,11 @@
           "quality": "RARE"
         }
       },
-      "level": 10,
+      "level": 11,
       "professions": {
         "Cooking": 1,
-        "Enchanting": 9,
-        "First Aid": 1,
+        "Enchanting": 10,
+        "First Aid": 17,
         "Tailoring": 65
       },
       "race": "Orc",
@@ -27,13 +27,18 @@
       "reputations": {
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 6120,
+          "raw": 6420,
           "tier": 4
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 7295,
+          "raw": 7595,
           "tier": 4
+        },
+        "Ratchet": {
+          "name": "Neutral",
+          "raw": 800,
+          "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
@@ -50,13 +55,13 @@
       "stats": {
         "deaths": 3,
         "food": 4,
-        "health_potions": 4,
+        "health_potions": 5,
         "hearths": 2,
-        "killing_blows": 173,
-        "mobs": 213,
-        "quests": 42
+        "killing_blows": 200,
+        "mobs": 243,
+        "quests": 47
       },
-      "xp": 6074
+      "xp": 5804
     },
     "us:arnim-rath": {
       "achievements": {},
@@ -185,11 +190,11 @@
       },
       "level": 20,
       "professions": {
-        "Blacksmithing": 97,
+        "Blacksmithing": 101,
         "Cooking": 75,
-        "First Aid": 85,
-        "Fishing": 103,
-        "Mining": 115
+        "First Aid": 89,
+        "Fishing": 105,
+        "Mining": 117
       },
       "race": "Undead",
       "raids": {},
@@ -201,12 +206,12 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 677,
+          "raw": 924,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3318,
+          "raw": 3412,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -216,52 +221,52 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 677,
+          "raw": 924,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 677,
+          "raw": 924,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4181,
+          "raw": 4350,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 677,
+          "raw": 924,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 855,
+          "raw": 1348,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 2145,
+          "raw": 2313,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 12646,
+          "raw": 12871,
           "tier": 5
         }
       },
       "spec": "Retribution",
       "stats": {
         "deaths": 3,
-        "flights": 18,
+        "flights": 21,
         "food": 36,
         "health_potions": 10,
         "hearths": 21,
-        "killing_blows": 1167,
-        "mobs": 1366,
-        "quests": 153
+        "killing_blows": 1189,
+        "mobs": 1388,
+        "quests": 160
       },
-      "xp": 10459
+      "xp": 18304
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -569,18 +574,17 @@
       },
       "spec": "Fire",
       "stats": {
-        "deaths": 12,
+        "deaths": 17,
         "drinks": 175,
-        "flights": 13,
+        "flights": 14,
         "food": 49,
         "health_potions": 11,
-        "hearths": 10,
+        "hearths": 11,
         "killing_blows": 721,
         "mobs": 1088,
-        "need_rolls": 5,
-        "quests": 134
+        "quests": 137
       },
-      "xp": 398
+      "xp": 5882
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -847,7 +851,7 @@
         "Cooking": 111,
         "First Aid": 75,
         "Fishing": 101,
-        "Herbalism": 88
+        "Herbalism": 96
       },
       "race": "Tauren",
       "raids": {},
@@ -864,7 +868,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3963,
+          "raw": 4013,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -884,7 +888,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5351,
+          "raw": 5401,
           "tier": 4
         },
         "Powderfuse": {
@@ -899,12 +903,12 @@
         },
         "Thunder Bluff": {
           "name": "Honored",
-          "raw": 9498,
+          "raw": 9623,
           "tier": 5
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1532,
+          "raw": 1832,
           "tier": 3
         }
       },
@@ -914,15 +918,14 @@
         "deaths": 21,
         "drinks": 11,
         "flights": 3,
-        "food": 16,
+        "food": 17,
         "health_potions": 26,
-        "hearths": 9,
-        "killing_blows": 633,
-        "mobs": 1026,
-        "need_rolls": 7,
-        "quests": 111
+        "hearths": 10,
+        "killing_blows": 686,
+        "mobs": 1080,
+        "quests": 119
       },
-      "xp": 4619
+      "xp": 11510
     },
     "us:gelato-delicioso": {
       "achievements": {
