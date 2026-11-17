@@ -15,6 +15,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794901074000,
       "level": 11,
       "professions": {
         "Cooking": 1,
@@ -84,6 +85,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794866240000,
       "level": 21,
       "professions": {
         "Cooking": 150,
@@ -188,6 +190,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794888572000,
       "level": 20,
       "professions": {
         "Blacksmithing": 101,
@@ -362,6 +365,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794869011000,
       "level": 14,
       "professions": {
         "Cooking": 1,
@@ -439,6 +443,7 @@
       "class": "Rogue",
       "dungeons": {},
       "gear": {},
+      "last_login": 1794869678000,
       "level": 14,
       "professions": {
         "Alchemy": 62,
@@ -515,6 +520,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794882420000,
       "level": 21,
       "professions": {
         "Cooking": 130,
@@ -601,6 +607,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794888505000,
       "level": 15,
       "professions": {
         "Blacksmithing": 71,
@@ -732,6 +739,7 @@
       "class": "Shaman",
       "dungeons": {},
       "gear": {},
+      "last_login": 1794857678000,
       "level": 20,
       "professions": {
         "Cooking": 1,
@@ -845,6 +853,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794895749000,
       "level": 19,
       "professions": {
         "Alchemy": 82,
@@ -954,6 +963,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794932036000,
       "level": 22,
       "professions": {
         "Cooking": 92,
@@ -974,11 +984,6 @@
           "name": "Friendly",
           "raw": 3196,
           "tier": 4
-        },
-        "Durotar Supply and Logistics": {
-          "name": "Neutral",
-          "raw": 0,
-          "tier": 3
         },
         "Earthen Ring": {
           "name": "Neutral",
@@ -1043,10 +1048,60 @@
         "killing_blows": 1120,
         "mana_potions": 6,
         "mobs": 1437,
-        "need_rolls": 6,
         "quests": 172
       },
       "xp": 6649
+    },
+    "us:guy-noir": {
+      "achievements": {
+        "855": "Explore Moonglade"
+      },
+      "boss_kills": {},
+      "class": "Rogue",
+      "dungeons": {},
+      "gear": {},
+      "last_login": 1794934135000,
+      "level": 10,
+      "professions": {
+        "Cooking": 12,
+        "First Aid": 46,
+        "Herbalism": 27,
+        "Skinning": 56
+      },
+      "race": "Undead",
+      "raids": {},
+      "reputations": {
+        "Darkspear Trolls": {
+          "name": "Neutral",
+          "raw": 2025,
+          "tier": 3
+        },
+        "Orgrimmar": {
+          "name": "Neutral",
+          "raw": 2025,
+          "tier": 3
+        },
+        "Thunder Bluff": {
+          "name": "Neutral",
+          "raw": 525,
+          "tier": 3
+        },
+        "Undercity": {
+          "name": "Friendly",
+          "raw": 6610,
+          "tier": 4
+        }
+      },
+      "spec": null,
+      "stats": {
+        "deaths": 1,
+        "food": 2,
+        "health_potions": 1,
+        "killing_blows": 281,
+        "mobs": 285,
+        "quests": 35
+      },
+      "xp": 2105
     },
     "us:hefe-weizenson": {
       "achievements": {
@@ -1197,6 +1252,7 @@
       "class": "Druid",
       "dungeons": {},
       "gear": {},
+      "last_login": 1794884329000,
       "level": 14,
       "professions": {
         "Alchemy": 74,
@@ -1271,6 +1327,7 @@
           "quality": "RARE"
         }
       },
+      "last_login": 1794764030000,
       "level": 20,
       "professions": {
         "Cooking": 1,
@@ -1376,6 +1433,7 @@
       "class": "Warrior",
       "dungeons": {},
       "gear": {},
+      "last_login": 1794869860000,
       "level": 14,
       "professions": {
         "Blacksmithing": 51,
@@ -1567,17 +1625,27 @@
   "group": {},
   "owners": {
     "alexander": {
+      "achievements": {
+        "855": "Explore Moonglade"
+      },
       "mounts": {
         "3111": "Cerulean Prideclaw"
       }
     },
     "cora": {
+      "achievements": {
+        "728": "Explore Durotar"
+      },
       "mounts": {}
     },
     "don": {
+      "achievements": {
+        "728": "Explore Durotar"
+      },
       "mounts": {}
     },
     "evan": {
+      "achievements": {},
       "mounts": {
         "3111": "Cerulean Prideclaw",
         "3130": "Veteran Adventurer's Loyal Companion"
@@ -1590,6 +1658,11 @@
       }
     },
     "jamarr": {
+      "achievements": {
+        "728": "Explore Durotar",
+        "736": "Explore Mulgore",
+        "855": "Explore Moonglade"
+      },
       "mounts": {
         "3111": "Cerulean Prideclaw",
         "3130": "Veteran Adventurer's Loyal Companion"
@@ -1599,11 +1672,15 @@
       "mounts": {}
     },
     "simon": {
+      "achievements": {},
       "mounts": {
         "3111": "Cerulean Prideclaw"
       }
     },
     "tim": {
+      "achievements": {
+        "855": "Explore Moonglade"
+      },
       "mounts": {
         "3111": "Cerulean Prideclaw",
         "3130": "Veteran Adventurer's Loyal Companion"
@@ -1972,6 +2049,16 @@
           "quests": 151
         },
         "xp": 22022
+      },
+      "us:guy-noir": {
+        "achievements": 0,
+        "clears": {},
+        "epics": [],
+        "level": 1,
+        "professions": {},
+        "rep": {},
+        "stats": {},
+        "xp": 0
       },
       "us:hodorhodor-hodor": {
         "achievements": 1,
