@@ -36,6 +36,7 @@ Usage:
   python3 tracker.py --dry-run       print what would be posted, save nothing
   python3 tracker.py --test-webhook  send a test message to Discord and exit
   python3 tracker.py --recap-now     post the weekly recap now (from saved data)
+  python3 tracker.py --roster        also post every character, highest level first
 """
 
 import argparse
@@ -413,6 +414,8 @@ def fetch_snapshot(c, region, token, namespace, settings):
             "class": name_of(body.get("character_class")),
             "race": name_of(body.get("race")),
             "xp": body.get("experience") if isinstance(body.get("experience"), int) else 0,
+            # Despite its name, Blizzard updates this when the character logs OUT.
+            "last_login": body.get("last_login_timestamp") if isinstance(body.get("last_login_timestamp"), int) else None,
         }
 
         def sub(suffix, parser):
@@ -426,7 +429,13 @@ def fetch_snapshot(c, region, token, namespace, settings):
         if settings["track_raids"]:
             snap["raids"] = sub("/encounters/raids", parse_encounters)
         if settings["track_achievements"]:
-            snap["achievements"] = sub("/achievements", parse_achievements)
+            a_status, a_body = api_get(region, f"{path}/achievements", token, namespace)
+            snap["achievements"] = parse_achievements(a_body) if a_status == 200 else None
+            snap["_ach_times"] = {
+                str(item.get("id")): item["completed_timestamp"]
+                for item in ((a_body or {}).get("achievements") or []) if a_status == 200
+                if isinstance(item.get("completed_timestamp"), int)
+            }
         s_status, s_body = api_get(region, f"{path}/achievements/statistics", token, namespace)
         stats, kills = parse_statistics(s_body) if s_status == 200 else (None, None)
         snap["stats"] = stats
@@ -533,12 +542,8 @@ def find_changes(key, old, new, settings, group):
                 icon = "👑" if now["name"].lower() == "exalted" else "🤝"
                 lines.append(f"{icon} Reached **{now['name']}** with {faction}")
 
-    # Achievements
-    old_a, new_a = old.get("achievements"), new.get("achievements")
-    if old_a is not None and new_a is not None:
-        for aid, name in sorted(new_a.items(), key=lambda kv: int(kv[0]) if kv[0].isdigit() else 0):
-            if aid not in old_a:
-                lines.append(f"🎖️ {name}")
+    # Achievements and mounts are shared across a Battle.net account in Forever,
+    # so they're handled per friend in main(), not per character here.
 
     # Gear: every new epic/legendary, and the character's first blue.
     # "gear" in the snapshot is every blue+ item ever seen equipped, so
@@ -560,6 +565,31 @@ def find_changes(key, old, new, settings, group):
     return lines
 
 
+def activity(old, new):
+    """How much a character changed since the last check (0 = not played)."""
+    if not old:
+        return 0
+    score = max(0, (new.get("level") or 0) - (old.get("level") or 0)) * 1_000_000
+    if (new.get("xp") or 0) != (old.get("xp") or 0):
+        score += 1000
+    new_s, old_s = new.get("stats") or {}, old.get("stats") or {}
+    score += sum(abs(v - (old_s.get(k) or 0)) for k, v in new_s.items())
+    return score
+
+
+def earned_by(shared, achievement_id):
+    """
+    The friend's character that was being played when an achievement was earned:
+    the one whose logout came first after the achievement's completion time.
+    Returns None when the times can't decide it.
+    """
+    when = (shared.get("times") or {}).get(achievement_id)
+    if not when:
+        return None
+    after = [x for x in shared["chars"] if (x[2].get("last_login") or 0) >= when and not x[4]]
+    return min(after, key=lambda x: x[2]["last_login"]) if after else None
+
+
 def merge_gear(old, new):
     """Fold this run's equipped blue+ items into the character's 'ever seen' list."""
     seen = dict((old or {}).get("gear") or {})
@@ -576,7 +606,7 @@ def merge_gear(old, new):
 def keep_baselines(old, new):
     """If a feature failed to load this run, keep last run's data for it."""
     for field in ("professions", "dungeons", "raids", "achievements", "boss_kills", "reputations",
-                  "stats", "spec"):
+                  "stats", "spec", "earned_achievements"):
         if new.get(field) is None and old and old.get(field) is not None:
             new[field] = old[field]
     return new
@@ -649,7 +679,7 @@ def recap_summary(snap):
         "epics": sorted(k for k, v in (snap.get("gear") or {}).items()
                         if QUALITY_RANK.get(v.get("quality"), 0) >= QUALITY_RANK["EPIC"]),
         "rep": {f: r.get("raw") or 0 for f, r in (snap.get("reputations") or {}).items()},
-        "achievements": len(snap.get("achievements") or {}),
+        "achievements": len(snap.get("earned_achievements") or []),
     }
 
 
@@ -825,6 +855,52 @@ def reset_recap_baseline(characters, state, when):
     weekly["last_awards"] = weekly.pop("pending_awards", [])
 
 
+# ---------------------------------------------------------------- Character list
+
+def build_roster(characters, state, settings, default_region):
+    """Every tracked character, highest level first, as a list of Discord embeds."""
+    max_level = settings["max_level"]
+    rows, waiting = [], []
+    for c, key in characters:
+        snap = state["characters"].get(key)
+        if not snap or not snap.get("level"):
+            waiting.append(display_name(c))
+            continue
+        rows.append((c, snap))
+    rows.sort(key=lambda r: (-(r[1].get("level") or 0), -(r[1].get("xp") or 0), display_name(r[0]).lower()))
+
+    medals = ["🥇", "🥈", "🥉"]
+    lines = []
+    for i, (c, snap) in enumerate(rows):
+        mark = medals[i] if i < 3 else f"`{i + 1}.`"
+        level = snap.get("level")
+        star = " ⭐" if level >= max_level else ""
+        spec = " ".join(x for x in (snap.get("spec"), snap.get("class")) if x)
+        owner = f" · {c['owner']}" if c.get("owner") else ""
+        url = armory_url(c, c.get("region", default_region))
+        lines.append(f"{mark} {emoji_for(snap, settings)}**[{display_name(c)}]({url})** Lv **{level}**{star}"
+                     + (f" · {spec}" if spec else "") + owner)
+    if waiting:
+        lines.append("")
+        lines.append("⏳ **Waiting for Blizzard data:** " + ", ".join(waiting))
+    if not lines:
+        return None
+
+    # Discord caps an embed description at 4,096 characters; start a new embed when needed.
+    total = len(rows)
+    title = f"📋 Character List · {total} character{'' if total == 1 else 's'}"
+    embeds, chunk = [], []
+    for line in lines:
+        if chunk and len("\n".join(chunk + [line])) > 3900:
+            embeds.append(chunk)
+            chunk = []
+        chunk.append(line)
+    embeds.append(chunk)
+    return [{"title": title if i == 0 else f"{title} (continued)",
+             "description": "\n".join(part),
+             "color": DEFAULT_COLOR} for i, part in enumerate(embeds)]
+
+
 # ---------------------------------------------------------------- Discord
 
 def post_to_discord(webhook, embeds, content=None):
@@ -873,6 +949,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="print messages instead of posting; save nothing")
     parser.add_argument("--test-webhook", action="store_true", help="send a test message to Discord and exit")
     parser.add_argument("--recap-now", action="store_true", help="also post the weekly recap on this run")
+    parser.add_argument("--roster", action="store_true", help="also post every character, highest level first")
     args = parser.parse_args()
 
     webhook = os.environ.get("DISCORD_WEBHOOK_URL", "").strip()
@@ -927,6 +1004,8 @@ def main():
         results = list(pool.map(check, characters))
 
     keyed = []
+    account_wide = {}  # friend -> their shared mounts/achievements and characters seen this run
+    cards = {}         # character key -> (config, snapshot, lines), in config order
     for c, (snap, err) in zip(characters, results):
         key = f"{c.get('region', default_region).lower()}:{char_slug(c)}"
         keyed.append((c, key))
@@ -948,22 +1027,18 @@ def main():
         else:
             lines = find_changes(key, old, snap, settings, state["group"])
 
-        # Mounts are account-wide: track them per friend, so a new mount is
-        # posted once (on whichever character saw it first), not once per alt.
+        # Mounts and achievements are account-wide: gather them per friend and
+        # credit new ones below to whichever character was actually played.
+        owner_key = (c.get("owner") or key).lower()
+        shared = account_wide.setdefault(owner_key, {"mounts": {}, "achievements": {}, "chars": []})
         mounts = snap.pop("_mounts", None)
         if mounts is not None:
-            owner_key = (c.get("owner") or key).lower()
-            known = owners.setdefault(owner_key, {}).get("mounts")
-            if known is None or old is None:
-                owners[owner_key]["mounts"] = {**(known or {}), **mounts}
-            else:
-                for mid, mname in sorted(mounts.items(), key=lambda kv: kv[1]):
-                    if mid not in known:
-                        lines.append(f"🐎 New mount: **{mname}**")
-                        known[mid] = mname
-
-        if lines:
-            embeds.append(character_embed(c, snap, lines, settings))
+            shared["mounts"].update(mounts)
+        shared["achievements"].update(snap.get("achievements") or {})
+        for aid, ts in (snap.pop("_ach_times", None) or {}).items():
+            shared.setdefault("times", {})[aid] = max(ts, shared.get("times", {}).get(aid, 0))
+        shared["chars"].append((c, key, snap, activity(old, snap), old is None))
+        cards[key] = (c, snap, lines)
         merge_gear(old, snap)
         state["characters"][key] = keep_baselines(old, snap)
         if key not in weekly["baseline"]:
@@ -972,6 +1047,32 @@ def main():
             # friend added later, counts from when the tracker first saw them.
             fresh = (snap.get("level") or 0) <= NEW_CHARACTER_MAX_LEVEL
             weekly["baseline"][key] = dict(LAUNCH_BASELINE) if fresh else recap_summary(state["characters"][key])
+
+    # Credit new account-wide unlocks once per friend, to the character that
+    # changed the most since the last check (the one that was just played).
+    for owner_key, shared in account_wide.items():
+        known = owners.setdefault(owner_key, {})
+        played = sorted((x for x in shared["chars"] if x[3] > 0), key=lambda x: -x[3])
+        target = (played or [x for x in shared["chars"] if not x[4]] or shared["chars"])[0]
+        for kind, icon in (("mounts", "🐎 New mount: **{}**"), ("achievements", "🎖️ {}")):
+            have = known.get(kind)
+            if have is None:  # first time seeing this friend's account: record quietly
+                known[kind] = dict(shared[kind])
+                continue
+            fresh = sorted((k for k in shared[kind] if k not in have), key=lambda k: shared[kind][k])
+            for k in fresh:
+                have[k] = shared[kind][k]
+                who = target
+                if kind == "achievements":
+                    who = earned_by(shared, k) or target
+                cards[who[1]][2].append(icon.format(shared[kind][k]))
+                if kind == "achievements":
+                    earned = state["characters"][who[1]].setdefault("earned_achievements", [])
+                    earned.append(shared[kind][k])
+
+    for c, snap, lines in cards.values():
+        if lines:
+            embeds.append(character_embed(c, snap, lines, settings))
 
     if unavailable:
         print("[info] No Blizzard data yet for: " + ", ".join(unavailable))
@@ -990,9 +1091,13 @@ def main():
         recap = build_recap(keyed, state, settings, week_end, launch_week=not weekly.get("recaps_posted"))
         reset_recap_baseline(keyed, state, now)
 
+    roster = build_roster(keyed, state, settings, default_region) if args.roster else None
+
     if args.dry_run:
         print(json.dumps(embeds, indent=2, ensure_ascii=False) if embeds else "[dry run] No updates.")
         print(json.dumps(recap, indent=2, ensure_ascii=False) if recap else "[dry run] No recap.")
+        if args.roster:
+            print(json.dumps(roster, indent=2, ensure_ascii=False) if roster else "[dry run] No characters.")
         return
 
     if embeds:
@@ -1006,6 +1111,11 @@ def main():
         for part in ([recap] if size < 5500 else [[e] for e in recap]):
             post_to_discord(webhook, part)
         print("Posted the weekly recap.")
+    if roster:
+        # Discord caps a message at 6,000 characters across its embeds, so send each part on its own.
+        for part in roster:
+            post_to_discord(webhook, [part])
+        print("Posted the character list.")
 
     # Saved only after posting succeeds, so a failed post is retried next run.
     with open(STATE_PATH, "w", encoding="utf-8") as f:
