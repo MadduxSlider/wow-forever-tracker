@@ -14,6 +14,10 @@ on:
         description: "Also post the weekly recap now"
         type: boolean
         default: false
+      post_roster:
+        description: "Also post the full character list (highest level first)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -40,7 +44,7 @@ jobs:
           BLIZZARD_CLIENT_SECRET: ${{ secrets.BLIZZARD_CLIENT_SECRET }}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
           PROFILE_NAMESPACE: ${{ vars.PROFILE_NAMESPACE }}
-        run: python3 tracker.py ${{ inputs.test_webhook && '--test-webhook' || '' }} ${{ inputs.recap_now && '--recap-now' || '' }}
+        run: python3 tracker.py ${{ inputs.test_webhook && '--test-webhook' || '' }} ${{ inputs.recap_now && '--recap-now' || '' }} ${{ inputs.post_roster && '--roster' || '' }}
 
       - name: Save progress
         run: |
