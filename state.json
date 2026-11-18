@@ -65,7 +65,9 @@
       "xp": 5804
     },
     "us:arnim-rath": {
-      "achievements": {},
+      "achievements": {
+        "62009": "Novice Warlock"
+      },
       "boss_kills": {
         "15027": {
           "boss": "Bazzalan",
@@ -85,6 +87,9 @@
       },
       "class": "Warlock",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Warlock"
+      ],
       "gear": {
         "14150": {
           "name": "Robe of Evocation",
@@ -111,14 +116,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794977517000,
-      "level": 23,
+      "last_login": 1795015268000,
+      "level": 25,
       "professions": {
         "Cooking": 150,
-        "Enchanting": 104,
+        "Enchanting": 107,
         "First Aid": 80,
         "Fishing": 225,
-        "Tailoring": 65
+        "Tailoring": 73
       },
       "race": "Undead",
       "raids": {},
@@ -130,62 +135,62 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1155,
+          "raw": 1218,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3523,
+          "raw": 3823,
           "tier": 4
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1155,
+          "raw": 1218,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1155,
+          "raw": 1218,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5537,
+          "raw": 6043,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1155,
+          "raw": 1218,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1811,
+          "raw": 1936,
           "tier": 3
         },
         "Thunder Bluff": {
-          "name": "Neutral",
-          "raw": 2488,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3032,
+          "tier": 4
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 11951,
+          "raw": 12176,
           "tier": 5
         }
       },
       "spec": "Affliction",
       "stats": {
-        "critters": 12,
+        "critters": 16,
         "deaths": 17,
-        "flights": 16,
-        "food": 34,
+        "flights": 18,
+        "food": 39,
         "hearths": 20,
-        "killing_blows": 940,
-        "mobs": 1489,
-        "quests": 181
+        "killing_blows": 1112,
+        "mobs": 1702,
+        "quests": 194
       },
-      "xp": 29137
+      "xp": 3629
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -558,64 +563,68 @@
         "271210": {
           "name": "Tuskwrap Belt",
           "quality": "RARE"
+        },
+        "6505": {
+          "name": "Crescent Staff",
+          "quality": "RARE"
         }
       },
-      "last_login": 1794973717000,
-      "level": 22,
+      "last_login": 1795013366000,
+      "level": 24,
       "professions": {
         "Cooking": 130,
-        "Enchanting": 47,
+        "Enchanting": 53,
         "First Aid": 80,
         "Fishing": 150,
-        "Tailoring": 55
+        "Tailoring": 60
       },
       "race": "Troll",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1691,
+          "raw": 1791,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Honored",
-          "raw": 9237,
+          "raw": 9337,
           "tier": 5
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1691,
+          "raw": 1791,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1691,
+          "raw": 1791,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 10575,
+          "raw": 10675,
           "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1691,
+          "raw": 1791,
           "tier": 3
         },
         "Ratchet": {
-          "name": "Neutral",
-          "raw": 2982,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3182,
+          "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5346,
+          "raw": 5633,
           "tier": 4
         },
         "Undercity": {
-          "name": "Neutral",
-          "raw": 2673,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3336,
+          "tier": 4
         }
       },
       "spec": "Fire",
@@ -623,15 +632,15 @@
         "critters": 11,
         "deaths": 17,
         "drinks": 206,
-        "flights": 14,
+        "flights": 18,
         "food": 49,
         "health_potions": 11,
-        "hearths": 12,
+        "hearths": 13,
         "killing_blows": 775,
         "mobs": 1529,
-        "quests": 138
+        "quests": 154
       },
-      "xp": 10662
+      "xp": 8762
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -1017,7 +1026,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794985753000,
+      "last_login": 1795026616000,
       "level": 23,
       "professions": {
         "Alchemy": 94,
@@ -1088,17 +1097,17 @@
       "spec": "Feral Combat",
       "stats": {
         "critters": 16,
-        "deaths": 28,
+        "deaths": 39,
         "drinks": 11,
         "flights": 6,
         "food": 28,
         "health_potions": 27,
-        "hearths": 13,
+        "hearths": 14,
         "killing_blows": 817,
         "mobs": 1656,
-        "quests": 141
+        "quests": 144
       },
-      "xp": 1305
+      "xp": 9453
     },
     "us:gelato-delicioso": {
       "achievements": {
@@ -1141,13 +1150,13 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794978085000,
+      "last_login": 1795026438000,
       "level": 24,
       "professions": {
-        "Cooking": 92,
-        "First Aid": 101,
+        "Cooking": 114,
+        "First Aid": 106,
         "Fishing": 82,
-        "Leatherworking": 105,
+        "Leatherworking": 113,
         "Skinning": 161
       },
       "race": "Windshaper Skyborne",
@@ -1160,7 +1169,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3221,
+          "raw": 3273,
           "tier": 4
         },
         "Earthen Ring": {
@@ -1185,7 +1194,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4627,
+          "raw": 4680,
           "tier": 4
         },
         "Powderfuse": {
@@ -1200,13 +1209,13 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4816,
+          "raw": 4970,
           "tier": 4
         },
         "Undercity": {
-          "name": "Neutral",
-          "raw": 2908,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3017,
+          "tier": 4
         },
         "Windshapers": {
           "name": "Friendly",
@@ -1219,16 +1228,16 @@
         "critters": 15,
         "deaths": 11,
         "drinks": 44,
-        "flights": 25,
+        "flights": 29,
         "food": 16,
         "health_potions": 10,
         "hearths": 10,
-        "killing_blows": 1241,
+        "killing_blows": 1250,
         "mana_potions": 6,
-        "mobs": 1885,
-        "quests": 187
+        "mobs": 1894,
+        "quests": 191
       },
-      "xp": 12603
+      "xp": 13783
     },
     "us:guy-noir": {
       "achievements": {
@@ -1435,10 +1444,10 @@
       "class": "Druid",
       "dungeons": {},
       "gear": {},
-      "last_login": 1794884329000,
+      "last_login": 1795022685000,
       "level": 14,
       "professions": {
-        "Alchemy": 74,
+        "Alchemy": 92,
         "Cooking": 68,
         "First Aid": 50,
         "Fishing": 9,
@@ -1454,22 +1463,22 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3223,
+          "raw": 3242,
           "tier": 4
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 3223,
+          "raw": 3242,
           "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 8470,
+          "raw": 8488,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 698,
+          "raw": 773,
           "tier": 3
         }
       },
@@ -1477,15 +1486,15 @@
       "stats": {
         "deaths": 4,
         "drinks": 8,
-        "flights": 2,
+        "flights": 3,
         "food": 6,
         "health_potions": 1,
         "hearths": 1,
         "killing_blows": 419,
         "mobs": 471,
-        "quests": 70
+        "quests": 71
       },
-      "xp": 2764
+      "xp": 3564
     },
     "us:meiji-restore": {
       "achievements": {
@@ -1881,7 +1890,9 @@
       }
     },
     "simon": {
-      "achievements": {},
+      "achievements": {
+        "62009": "Novice Warlock"
+      },
       "mounts": {
         "3111": "Cerulean Prideclaw"
       }
