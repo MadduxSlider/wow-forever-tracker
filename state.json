@@ -71,6 +71,16 @@
           "boss": "Bazzalan",
           "count": 1,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Warlock",
@@ -83,16 +93,32 @@
         "15444": {
           "name": "Staff of Orgrimmar",
           "quality": "RARE"
+        },
+        "271206": {
+          "name": "Leftover Abomination Skin",
+          "quality": "RARE"
+        },
+        "286980": {
+          "name": "Rotmender's Sash",
+          "quality": "RARE"
+        },
+        "5970": {
+          "name": "Serpent Gloves",
+          "quality": "RARE"
+        },
+        "6505": {
+          "name": "Crescent Staff",
+          "quality": "RARE"
         }
       },
-      "last_login": 1794949500000,
-      "level": 21,
+      "last_login": 1794977517000,
+      "level": 23,
       "professions": {
         "Cooking": 150,
-        "Enchanting": 76,
+        "Enchanting": 104,
         "First Aid": 80,
         "Fishing": 225,
-        "Tailoring": 64
+        "Tailoring": 65
       },
       "race": "Undead",
       "raids": {},
@@ -104,61 +130,62 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1055,
+          "raw": 1155,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3486,
+          "raw": 3523,
           "tier": 4
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1055,
+          "raw": 1155,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1055,
+          "raw": 1155,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5500,
+          "raw": 5537,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1055,
+          "raw": 1155,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1611,
+          "raw": 1811,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 2338,
+          "raw": 2488,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 11463,
+          "raw": 11951,
           "tier": 5
         }
       },
       "spec": "Affliction",
       "stats": {
+        "critters": 12,
         "deaths": 17,
-        "flights": 10,
-        "food": 27,
-        "hearths": 17,
-        "killing_blows": 823,
-        "mobs": 1051,
-        "quests": 167
+        "flights": 16,
+        "food": 34,
+        "hearths": 20,
+        "killing_blows": 940,
+        "mobs": 1489,
+        "quests": 181
       },
-      "xp": 9771
+      "xp": 29137
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -189,7 +216,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794963723000,
+      "last_login": 1794977487000,
       "level": 20,
       "professions": {
         "Blacksmithing": 101,
@@ -501,6 +528,16 @@
           "boss": "Bazzalan",
           "count": 1,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Mage",
@@ -517,13 +554,17 @@
         "253885": {
           "name": "Novice Arcanist's Sash",
           "quality": "RARE"
+        },
+        "271210": {
+          "name": "Tuskwrap Belt",
+          "quality": "RARE"
         }
       },
-      "last_login": 1794962525000,
-      "level": 21,
+      "last_login": 1794973717000,
+      "level": 22,
       "professions": {
         "Cooking": 130,
-        "Enchanting": 43,
+        "Enchanting": 47,
         "First Aid": 80,
         "Fishing": 150,
         "Tailoring": 55
@@ -579,17 +620,18 @@
       },
       "spec": "Fire",
       "stats": {
+        "critters": 11,
         "deaths": 17,
-        "drinks": 175,
+        "drinks": 206,
         "flights": 14,
         "food": 49,
         "health_potions": 11,
-        "hearths": 11,
-        "killing_blows": 721,
-        "mobs": 1088,
-        "quests": 137
+        "hearths": 12,
+        "killing_blows": 775,
+        "mobs": 1529,
+        "quests": 138
       },
-      "xp": 5882
+      "xp": 10662
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -951,6 +993,16 @@
           "boss": "Bazzalan",
           "count": 2,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Druid",
@@ -959,12 +1011,16 @@
         "15444": {
           "name": "Staff of Orgrimmar",
           "quality": "RARE"
+        },
+        "6505": {
+          "name": "Crescent Staff",
+          "quality": "RARE"
         }
       },
-      "last_login": 1794963090000,
-      "level": 20,
+      "last_login": 1794985753000,
+      "level": 23,
       "professions": {
-        "Alchemy": 92,
+        "Alchemy": 94,
         "Cooking": 111,
         "First Aid": 75,
         "Fishing": 101,
@@ -975,17 +1031,17 @@
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 672,
+          "raw": 772,
           "tier": 3
         },
         "Cenarion Circle": {
           "name": "Neutral",
-          "raw": 2785,
+          "raw": 2960,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 4101,
+          "raw": 4138,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -995,54 +1051,54 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 672,
+          "raw": 772,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 672,
+          "raw": 772,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5488,
+          "raw": 5526,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 672,
+          "raw": 772,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 845,
+          "raw": 1045,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Honored",
-          "raw": 9711,
+          "raw": 9861,
           "tier": 5
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 2182,
+          "raw": 2670,
           "tier": 3
         }
       },
       "spec": "Feral Combat",
       "stats": {
-        "critters": 3,
-        "deaths": 22,
+        "critters": 16,
+        "deaths": 28,
         "drinks": 11,
-        "flights": 4,
-        "food": 19,
-        "health_potions": 26,
-        "hearths": 10,
-        "killing_blows": 724,
-        "mobs": 1189,
-        "quests": 121
+        "flights": 6,
+        "food": 28,
+        "health_potions": 27,
+        "hearths": 13,
+        "killing_blows": 817,
+        "mobs": 1656,
+        "quests": 141
       },
-      "xp": 1312
+      "xp": 1305
     },
     "us:gelato-delicioso": {
       "achievements": {
@@ -1053,6 +1109,16 @@
           "boss": "Bazzalan",
           "count": 2,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Shaman",
@@ -1060,6 +1126,10 @@
       "gear": {
         "15444": {
           "name": "Staff of Orgrimmar",
+          "quality": "RARE"
+        },
+        "251533": {
+          "name": "Forsaken Greataxe",
           "quality": "RARE"
         },
         "252491": {
@@ -1071,26 +1141,26 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794932036000,
-      "level": 22,
+      "last_login": 1794978085000,
+      "level": 24,
       "professions": {
         "Cooking": 92,
-        "First Aid": 100,
+        "First Aid": 101,
         "Fishing": 82,
         "Leatherworking": 105,
-        "Skinning": 150
+        "Skinning": 161
       },
       "race": "Windshaper Skyborne",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1587,
+          "raw": 1687,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3196,
+          "raw": 3221,
           "tier": 4
         },
         "Earthen Ring": {
@@ -1100,12 +1170,12 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1587,
+          "raw": 1687,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1587,
+          "raw": 1687,
           "tier": 3
         },
         "Nightclaw Druids": {
@@ -1115,27 +1185,27 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4602,
+          "raw": 4627,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1587,
+          "raw": 1687,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 2674,
+          "raw": 2874,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4716,
+          "raw": 4816,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 2433,
+          "raw": 2908,
           "tier": 3
         },
         "Windshapers": {
@@ -1146,19 +1216,19 @@
       },
       "spec": "Enhancement",
       "stats": {
-        "critters": 2,
-        "deaths": 10,
-        "drinks": 31,
-        "flights": 21,
-        "food": 14,
-        "health_potions": 9,
-        "hearths": 8,
-        "killing_blows": 1120,
+        "critters": 15,
+        "deaths": 11,
+        "drinks": 44,
+        "flights": 25,
+        "food": 16,
+        "health_potions": 10,
+        "hearths": 10,
+        "killing_blows": 1241,
         "mana_potions": 6,
-        "mobs": 1437,
-        "quests": 172
+        "mobs": 1885,
+        "quests": 187
       },
-      "xp": 6649
+      "xp": 12603
     },
     "us:guy-noir": {
       "achievements": {
@@ -1426,6 +1496,16 @@
           "boss": "Bazzalan",
           "count": 2,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Druid",
@@ -1438,21 +1518,29 @@
         "252492": {
           "name": "Stormrider's Leather Armor",
           "quality": "RARE"
+        },
+        "271203": {
+          "name": "Segmented Spider Leg",
+          "quality": "RARE"
+        },
+        "5404": {
+          "name": "Serpent's Shoulders",
+          "quality": "RARE"
         }
       },
-      "last_login": 1794764030000,
-      "level": 20,
+      "last_login": 1794978036000,
+      "level": 23,
       "professions": {
         "Cooking": 1,
         "Leatherworking": 79,
-        "Skinning": 110
+        "Skinning": 132
       },
       "race": "Windshaper Skyborne",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 892,
+          "raw": 942,
           "tier": 3
         },
         "Cenarion Circle": {
@@ -1461,23 +1549,23 @@
           "tier": 3
         },
         "Darkspear Trolls": {
-          "name": "Neutral",
-          "raw": 2845,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3101,
+          "tier": 4
         },
         "Earthen Ring": {
           "name": "Neutral",
-          "raw": 600,
+          "raw": 700,
           "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 892,
+          "raw": 942,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 892,
+          "raw": 942,
           "tier": 3
         },
         "Nightclaw Druids": {
@@ -1487,33 +1575,28 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 3651,
+          "raw": 3907,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 892,
+          "raw": 942,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1285,
+          "raw": 1385,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4440,
+          "raw": 4883,
           "tier": 4
         },
         "Undercity": {
-          "name": "Neutral",
-          "raw": 2753,
-          "tier": 3
-        },
-        "Warsong Outriders": {
-          "name": "Neutral",
-          "raw": 0,
-          "tier": 3
+          "name": "Friendly",
+          "raw": 3516,
+          "tier": 4
         },
         "Windshapers": {
           "name": "Friendly",
@@ -1523,20 +1606,19 @@
       },
       "spec": "Feral Combat",
       "stats": {
-        "critters": 9,
-        "deaths": 32,
-        "drinks": 20,
-        "flights": 14,
+        "critters": 21,
+        "deaths": 34,
+        "drinks": 26,
+        "flights": 19,
         "food": 15,
-        "health_potions": 7,
-        "hearths": 5,
-        "killing_blows": 1015,
+        "health_potions": 8,
+        "hearths": 7,
+        "killing_blows": 1110,
         "mana_potions": 7,
-        "mobs": 1350,
-        "need_rolls": 5,
-        "quests": 157
+        "mobs": 1792,
+        "quests": 176
       },
-      "xp": 17464
+      "xp": 19791
     },
     "us:pocus-below": {
       "achievements": {
