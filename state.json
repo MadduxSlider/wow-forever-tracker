@@ -230,7 +230,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795060899000,
+      "last_login": 1795092086000,
       "level": 21,
       "professions": {
         "Blacksmithing": 101,
@@ -254,7 +254,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3487,
+          "raw": 3496,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -274,7 +274,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4500,
+          "raw": 4508,
           "tier": 4
         },
         "Powderfuse": {
@@ -289,12 +289,12 @@
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 2463,
+          "raw": 2498,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 12946,
+          "raw": 12955,
           "tier": 5
         }
       },
@@ -302,15 +302,15 @@
       "stats": {
         "deaths": 3,
         "drinks": 3,
-        "flights": 26,
+        "flights": 27,
         "food": 36,
         "health_potions": 10,
-        "hearths": 24,
+        "hearths": 25,
         "killing_blows": 1290,
         "mobs": 1566,
-        "quests": 166
+        "quests": 168
       },
-      "xp": 8274
+      "xp": 8684
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -587,14 +587,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795060646000,
+      "last_login": 1795093527000,
       "level": 25,
       "professions": {
         "Cooking": 130,
         "Enchanting": 54,
         "First Aid": 80,
         "Fishing": 150,
-        "Tailoring": 65
+        "Tailoring": 70
       },
       "race": "Troll",
       "raids": {},
@@ -606,7 +606,7 @@
         },
         "Darkspear Trolls": {
           "name": "Honored",
-          "raw": 9850,
+          "raw": 9906,
           "tier": 5
         },
         "Durotar Supply and Logistics": {
@@ -626,7 +626,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 11356,
+          "raw": 11412,
           "tier": 5
         },
         "Powderfuse": {
@@ -641,29 +641,29 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 6165,
+          "raw": 6390,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3623,
+          "raw": 3680,
           "tier": 4
         }
       },
       "spec": "Fire",
       "stats": {
-        "critters": 11,
+        "critters": 12,
         "deaths": 17,
-        "drinks": 231,
+        "drinks": 234,
         "flights": 21,
-        "food": 55,
+        "food": 57,
         "health_potions": 11,
         "hearths": 15,
-        "killing_blows": 872,
-        "mobs": 1694,
-        "quests": 167
+        "killing_blows": 893,
+        "mobs": 1714,
+        "quests": 170
       },
-      "xp": 22270
+      "xp": 31416
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -1134,6 +1134,7 @@
     },
     "us:gelato-delicioso": {
       "achievements": {
+        "62006": "Novice Shaman",
         "855": "Explore Moonglade"
       },
       "boss_kills": {
@@ -1155,6 +1156,9 @@
       },
       "class": "Shaman",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Shaman"
+      ],
       "gear": {
         "10412": {
           "name": "Belt of the Fang",
@@ -1185,14 +1189,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795057181000,
-      "level": 24,
+      "last_login": 1795101639000,
+      "level": 25,
       "professions": {
         "Cooking": 114,
         "First Aid": 106,
         "Fishing": 82,
         "Leatherworking": 113,
-        "Skinning": 170
+        "Skinning": 171
       },
       "race": "Windshaper Skyborne",
       "raids": {},
@@ -1261,18 +1265,18 @@
       "spec": "Enhancement",
       "stats": {
         "critters": 49,
-        "deaths": 11,
-        "drinks": 50,
-        "flights": 30,
-        "food": 17,
-        "health_potions": 10,
+        "deaths": 12,
+        "drinks": 52,
+        "flights": 31,
+        "food": 19,
+        "health_potions": 11,
         "hearths": 11,
-        "killing_blows": 1336,
-        "mana_potions": 6,
-        "mobs": 2422,
+        "killing_blows": 1371,
+        "mana_potions": 7,
+        "mobs": 2473,
         "quests": 194
       },
-      "xp": 31482
+      "xp": 6191
     },
     "us:guy-noir": {
       "achievements": {
@@ -1936,6 +1940,7 @@
     },
     "tim": {
       "achievements": {
+        "62006": "Novice Shaman",
         "855": "Explore Moonglade"
       },
       "mounts": {
