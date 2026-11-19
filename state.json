@@ -15,7 +15,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794952366000,
+      "last_login": 1795028206000,
       "level": 11,
       "professions": {
         "Cooking": 1,
@@ -66,7 +66,8 @@
     },
     "us:arnim-rath": {
       "achievements": {
-        "62009": "Novice Warlock"
+        "62009": "Novice Warlock",
+        "847": "Explore Stonetalon Mountains"
       },
       "boss_kills": {
         "15027": {
@@ -88,7 +89,8 @@
       "class": "Warlock",
       "dungeons": {},
       "earned_achievements": [
-        "Novice Warlock"
+        "Novice Warlock",
+        "Explore Stonetalon Mountains"
       ],
       "gear": {
         "14150": {
@@ -116,14 +118,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795015268000,
-      "level": 25,
+      "last_login": 1795040964000,
+      "level": 27,
       "professions": {
         "Cooking": 150,
-        "Enchanting": 107,
+        "Enchanting": 109,
         "First Aid": 80,
         "Fishing": 225,
-        "Tailoring": 73
+        "Tailoring": 79
       },
       "race": "Undead",
       "raids": {},
@@ -135,62 +137,69 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1218,
+          "raw": 1318,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3823,
+          "raw": 4691,
           "tier": 4
+        },
+        "Earthen Ring": {
+          "name": "Neutral",
+          "raw": 100,
+          "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1218,
+          "raw": 1318,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1218,
+          "raw": 1318,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 6043,
+          "raw": 6761,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1218,
+          "raw": 1318,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1936,
+          "raw": 2136,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3032,
+          "raw": 4290,
           "tier": 4
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 12176,
+          "raw": 12650,
           "tier": 5
         }
       },
       "spec": "Affliction",
       "stats": {
         "critters": 16,
-        "deaths": 17,
-        "flights": 18,
-        "food": 39,
-        "hearths": 20,
-        "killing_blows": 1112,
-        "mobs": 1702,
-        "quests": 194
+        "deaths": 21,
+        "flights": 25,
+        "food": 51,
+        "hearths": 23,
+        "honorable_kills": 1,
+        "killing_blows": 1307,
+        "mana_potions": 1,
+        "mobs": 2000,
+        "quests": 222
       },
-      "xp": 3629
+      "xp": 10144
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -526,6 +535,7 @@
     },
     "us:cora-avatar": {
       "achievements": {
+        "61994": "Novice Mage",
         "728": "Explore Durotar"
       },
       "boss_kills": {
@@ -547,6 +557,9 @@
       },
       "class": "Mage",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Mage"
+      ],
       "gear": {
         "14148": {
           "name": "Crystalline Cuffs",
@@ -569,61 +582,66 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795013366000,
-      "level": 24,
+      "last_login": 1795040835000,
+      "level": 25,
       "professions": {
         "Cooking": 130,
         "Enchanting": 53,
         "First Aid": 80,
         "Fishing": 150,
-        "Tailoring": 60
+        "Tailoring": 65
       },
       "race": "Troll",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1791,
+          "raw": 1941,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Honored",
-          "raw": 9337,
+          "raw": 9650,
           "tier": 5
+        },
+        "Earthen Ring": {
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1791,
+          "raw": 1941,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1791,
+          "raw": 1941,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 10675,
+          "raw": 11043,
           "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1791,
+          "raw": 1941,
           "tier": 3
         },
         "Ratchet": {
           "name": "Friendly",
-          "raw": 3182,
+          "raw": 3482,
           "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5633,
+          "raw": 5927,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3336,
+          "raw": 3498,
           "tier": 4
         }
       },
@@ -631,16 +649,16 @@
       "stats": {
         "critters": 11,
         "deaths": 17,
-        "drinks": 206,
-        "flights": 18,
-        "food": 49,
+        "drinks": 220,
+        "flights": 19,
+        "food": 55,
         "health_potions": 11,
-        "hearths": 13,
-        "killing_blows": 775,
-        "mobs": 1529,
-        "quests": 154
+        "hearths": 14,
+        "killing_blows": 833,
+        "mobs": 1600,
+        "quests": 162
       },
-      "xp": 8762
+      "xp": 5135
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -657,8 +675,8 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794946526000,
-      "level": 15,
+      "last_login": 1795032117000,
+      "level": 16,
       "professions": {
         "Blacksmithing": 71,
         "Cooking": 42,
@@ -718,11 +736,11 @@
         "food": 11,
         "health_potions": 2,
         "hearths": 5,
-        "killing_blows": 518,
-        "mobs": 549,
-        "quests": 115
+        "killing_blows": 571,
+        "mobs": 610,
+        "quests": 116
       },
-      "xp": 10801
+      "xp": 185
     },
     "us:dahkniss-pally": {
       "achievements": {
@@ -1026,7 +1044,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795026616000,
+      "last_login": 1795032221000,
       "level": 23,
       "professions": {
         "Alchemy": 94,
@@ -1102,7 +1120,7 @@
         "flights": 6,
         "food": 28,
         "health_potions": 27,
-        "hearths": 14,
+        "hearths": 15,
         "killing_blows": 817,
         "mobs": 1656,
         "quests": 144
@@ -1121,7 +1139,7 @@
         },
         "15028": {
           "boss": "Mutanus the Devourer",
-          "count": 1,
+          "count": 2,
           "instance": "Wailing Caverns"
         },
         "63571": {
@@ -1133,6 +1151,10 @@
       "class": "Shaman",
       "dungeons": {},
       "gear": {
+        "10412": {
+          "name": "Belt of the Fang",
+          "quality": "RARE"
+        },
         "15444": {
           "name": "Staff of Orgrimmar",
           "quality": "RARE"
@@ -1150,14 +1172,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795026438000,
+      "last_login": 1795030703000,
       "level": 24,
       "professions": {
         "Cooking": 114,
         "First Aid": 106,
         "Fishing": 82,
         "Leatherworking": 113,
-        "Skinning": 161
+        "Skinning": 167
       },
       "race": "Windshaper Skyborne",
       "raids": {},
@@ -1225,19 +1247,19 @@
       },
       "spec": "Enhancement",
       "stats": {
-        "critters": 15,
+        "critters": 30,
         "deaths": 11,
-        "drinks": 44,
+        "drinks": 45,
         "flights": 29,
         "food": 16,
         "health_potions": 10,
         "hearths": 10,
-        "killing_blows": 1250,
+        "killing_blows": 1273,
         "mana_potions": 6,
-        "mobs": 1894,
-        "quests": 191
+        "mobs": 2151,
+        "quests": 192
       },
-      "xp": 13783
+      "xp": 15633
     },
     "us:guy-noir": {
       "achievements": {
@@ -1838,6 +1860,7 @@
     },
     "cora": {
       "achievements": {
+        "61994": "Novice Mage",
         "728": "Explore Durotar"
       },
       "mounts": {}
@@ -1891,7 +1914,8 @@
     },
     "simon": {
       "achievements": {
-        "62009": "Novice Warlock"
+        "62009": "Novice Warlock",
+        "847": "Explore Stonetalon Mountains"
       },
       "mounts": {
         "3111": "Cerulean Prideclaw"
