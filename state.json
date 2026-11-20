@@ -118,14 +118,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795129407000,
+      "last_login": 1795191264000,
       "level": 28,
       "professions": {
-        "Cooking": 150,
-        "Enchanting": 110,
+        "Cooking": 225,
+        "Enchanting": 131,
         "First Aid": 80,
         "Fishing": 225,
-        "Tailoring": 87
+        "Tailoring": 91
       },
       "race": "Undead",
       "raids": {},
@@ -142,7 +142,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 4728,
+          "raw": 4753,
           "tier": 4
         },
         "Earthen Ring": {
@@ -162,7 +162,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 6798,
+          "raw": 6898,
           "tier": 4
         },
         "Powderfuse": {
@@ -177,12 +177,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4440,
+          "raw": 4465,
           "tier": 4
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 12687,
+          "raw": 12712,
           "tier": 5
         }
       },
@@ -190,16 +190,16 @@
       "stats": {
         "critters": 16,
         "deaths": 21,
-        "flights": 28,
+        "flights": 32,
         "food": 58,
-        "hearths": 25,
+        "hearths": 26,
         "honorable_kills": 1,
-        "killing_blows": 1373,
+        "killing_blows": 1384,
         "mana_potions": 1,
-        "mobs": 2162,
-        "quests": 229
+        "mobs": 2177,
+        "quests": 233
       },
-      "xp": 1414
+      "xp": 9434
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -422,12 +422,12 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795139468000,
+      "last_login": 1795182092000,
       "level": 16,
       "professions": {
         "Cooking": 1,
         "Leatherworking": 46,
-        "Skinning": 86
+        "Skinning": 87
       },
       "race": "Orc",
       "raids": {},
@@ -485,22 +485,23 @@
         "flights": 4,
         "food": 2,
         "health_potions": 1,
-        "hearths": 4,
-        "killing_blows": 332,
-        "mobs": 482,
+        "hearths": 5,
+        "killing_blows": 342,
+        "mobs": 492,
         "quests": 80
       },
-      "xp": 364
+      "xp": 1560
     },
     "us:bocus-cho": {
       "achievements": {
+        "61994": "Novice Mage",
         "728": "Explore Durotar"
       },
       "boss_kills": {},
       "class": "Rogue",
       "dungeons": {},
       "gear": {},
-      "last_login": 1794869678000,
+      "last_login": 1795182329000,
       "level": 14,
       "professions": {
         "Alchemy": 62,
@@ -1686,13 +1687,14 @@
     },
     "us:pocus-below": {
       "achievements": {
+        "61994": "Novice Mage",
         "728": "Explore Durotar"
       },
       "boss_kills": {},
       "class": "Warrior",
       "dungeons": {},
       "gear": {},
-      "last_login": 1794869860000,
+      "last_login": 1795182253000,
       "level": 14,
       "professions": {
         "Blacksmithing": 51,
