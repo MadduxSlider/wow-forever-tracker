@@ -101,6 +101,10 @@
           "name": "Staff of Orgrimmar",
           "quality": "RARE"
         },
+        "16975": {
+          "name": "Warsong Sash",
+          "quality": "RARE"
+        },
         "271206": {
           "name": "Leftover Abomination Skin",
           "quality": "RARE"
@@ -118,7 +122,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795191264000,
+      "last_login": 1795211052000,
       "level": 28,
       "professions": {
         "Cooking": 225,
@@ -142,7 +146,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 4753,
+          "raw": 4816,
           "tier": 4
         },
         "Earthen Ring": {
@@ -162,7 +166,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 6898,
+          "raw": 7148,
           "tier": 4
         },
         "Powderfuse": {
@@ -177,12 +181,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4465,
+          "raw": 4527,
           "tier": 4
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 12712,
+          "raw": 12775,
           "tier": 5
         }
       },
@@ -190,16 +194,16 @@
       "stats": {
         "critters": 16,
         "deaths": 21,
-        "flights": 32,
+        "flights": 34,
         "food": 58,
         "hearths": 26,
         "honorable_kills": 1,
         "killing_blows": 1384,
         "mana_potions": 1,
         "mobs": 2177,
-        "quests": 233
+        "quests": 235
       },
-      "xp": 9434
+      "xp": 15834
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -422,59 +426,59 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795182092000,
-      "level": 16,
+      "last_login": 1795214045000,
+      "level": 18,
       "professions": {
         "Cooking": 1,
-        "Leatherworking": 46,
-        "Skinning": 87
+        "Leatherworking": 60,
+        "Skinning": 123
       },
       "race": "Orc",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 525,
+          "raw": 920,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 7707,
+          "raw": 8022,
           "tier": 4
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 525,
+          "raw": 920,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 525,
+          "raw": 920,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 9520,
+          "raw": 10491,
           "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 525,
+          "raw": 920,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 950,
+          "raw": 1740,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3625,
+          "raw": 4172,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 950,
+          "raw": 1396,
           "tier": 3
         }
       },
@@ -482,15 +486,15 @@
       "stats": {
         "deaths": 3,
         "drinks": 3,
-        "flights": 4,
+        "flights": 7,
         "food": 2,
         "health_potions": 1,
-        "hearths": 5,
-        "killing_blows": 342,
-        "mobs": 492,
-        "quests": 80
+        "hearths": 6,
+        "killing_blows": 503,
+        "mobs": 665,
+        "quests": 102
       },
-      "xp": 1560
+      "xp": 100
     },
     "us:bocus-cho": {
       "achievements": {
@@ -1193,8 +1197,20 @@
           "name": "Trapper's Leather Armor",
           "quality": "RARE"
         },
+        "252503": {
+          "name": "Wisdom's Leather Pants",
+          "quality": "RARE"
+        },
+        "252506": {
+          "name": "Stormrider's Leather Hood",
+          "quality": "RARE"
+        },
         "272998": {
           "name": "Bone Knuckles",
+          "quality": "RARE"
+        },
+        "4253": {
+          "name": "Toughened Leather Gloves",
           "quality": "RARE"
         },
         "6473": {
@@ -1206,27 +1222,32 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795147498000,
-      "level": 25,
+      "last_login": 1795216144000,
+      "level": 26,
       "professions": {
         "Cooking": 114,
-        "First Aid": 106,
+        "First Aid": 123,
         "Fishing": 82,
-        "Leatherworking": 113,
-        "Skinning": 175
+        "Leatherworking": 122,
+        "Skinning": 187
       },
       "race": "Windshaper Skyborne",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1687,
+          "raw": 1737,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3392,
+          "raw": 3542,
           "tier": 4
+        },
+        "Durotar Supply and Logistics": {
+          "name": "Neutral",
+          "raw": 2000,
+          "tier": 3
         },
         "Earthen Ring": {
           "name": "Neutral",
@@ -1235,12 +1256,12 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1687,
+          "raw": 1737,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1687,
+          "raw": 1737,
           "tier": 3
         },
         "Nightclaw Druids": {
@@ -1250,27 +1271,27 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4798,
+          "raw": 4873,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1687,
+          "raw": 1737,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 2874,
+          "raw": 2974,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5332,
+          "raw": 5557,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3248,
+          "raw": 3323,
           "tier": 4
         },
         "Windshapers": {
@@ -1282,18 +1303,18 @@
       "spec": "Enhancement",
       "stats": {
         "critters": 50,
-        "deaths": 13,
-        "drinks": 58,
-        "flights": 31,
-        "food": 22,
-        "health_potions": 13,
-        "hearths": 12,
-        "killing_blows": 1422,
+        "deaths": 16,
+        "drinks": 61,
+        "flights": 36,
+        "food": 26,
+        "health_potions": 14,
+        "hearths": 13,
+        "killing_blows": 1566,
         "mana_potions": 8,
-        "mobs": 2546,
-        "quests": 198
+        "mobs": 2756,
+        "quests": 205
       },
-      "xp": 20656
+      "xp": 15523
     },
     "us:guy-noir": {
       "achievements": {
@@ -1494,13 +1515,14 @@
     },
     "us:hodorhodor-hodor": {
       "achievements": {
+        "62006": "Novice Shaman",
         "855": "Explore Moonglade"
       },
       "boss_kills": {},
       "class": "Druid",
       "dungeons": {},
       "gear": {},
-      "last_login": 1795022685000,
+      "last_login": 1795195526000,
       "level": 14,
       "professions": {
         "Alchemy": 92,
