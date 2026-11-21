@@ -1189,6 +1189,10 @@
           "name": "Staff of Orgrimmar",
           "quality": "RARE"
         },
+        "16977": {
+          "name": "Warsong Boots",
+          "quality": "RARE"
+        },
         "251533": {
           "name": "Forsaken Greataxe",
           "quality": "RARE"
@@ -1222,26 +1226,26 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795231279000,
-      "level": 27,
+      "last_login": 1795240867000,
+      "level": 28,
       "professions": {
         "Cooking": 114,
-        "First Aid": 131,
+        "First Aid": 133,
         "Fishing": 82,
         "Leatherworking": 122,
-        "Skinning": 187
+        "Skinning": 191
       },
       "race": "Windshaper Skyborne",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1787,
+          "raw": 1812,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3880,
+          "raw": 4166,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1251,17 +1255,17 @@
         },
         "Earthen Ring": {
           "name": "Neutral",
-          "raw": 700,
+          "raw": 800,
           "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1787,
+          "raw": 1812,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1787,
+          "raw": 1812,
           "tier": 3
         },
         "Nightclaw Druids": {
@@ -1271,27 +1275,27 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5248,
+          "raw": 5647,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1787,
+          "raw": 1812,
           "tier": 3
         },
         "Ratchet": {
           "name": "Friendly",
-          "raw": 3074,
+          "raw": 3124,
           "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5970,
+          "raw": 6440,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3511,
+          "raw": 3703,
           "tier": 4
         },
         "Windshapers": {
@@ -1304,17 +1308,17 @@
       "stats": {
         "critters": 50,
         "deaths": 17,
-        "drinks": 66,
-        "flights": 37,
-        "food": 30,
+        "drinks": 68,
+        "flights": 41,
+        "food": 33,
         "health_potions": 14,
-        "hearths": 13,
-        "killing_blows": 1654,
+        "hearths": 14,
+        "killing_blows": 1736,
         "mana_potions": 9,
-        "mobs": 2930,
-        "quests": 213
+        "mobs": 3046,
+        "quests": 225
       },
-      "xp": 8969
+      "xp": 2640
     },
     "us:guy-noir": {
       "achievements": {
@@ -1522,7 +1526,7 @@
       "class": "Druid",
       "dungeons": {},
       "gear": {},
-      "last_login": 1795231472000,
+      "last_login": 1795235897000,
       "level": 14,
       "professions": {
         "Alchemy": 92,
