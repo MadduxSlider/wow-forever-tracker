@@ -122,7 +122,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795221520000,
+      "last_login": 1795280923000,
       "level": 28,
       "professions": {
         "Cooking": 225,
@@ -193,17 +193,17 @@
       "spec": "Affliction",
       "stats": {
         "critters": 16,
-        "deaths": 21,
-        "flights": 34,
-        "food": 58,
-        "hearths": 26,
+        "deaths": 23,
+        "flights": 36,
+        "food": 60,
+        "hearths": 27,
         "honorable_kills": 1,
-        "killing_blows": 1384,
+        "killing_blows": 1398,
         "mana_potions": 1,
-        "mobs": 2177,
-        "quests": 236
+        "mobs": 2225,
+        "quests": 237
       },
-      "xp": 17934
+      "xp": 29310
     },
     "us:bannick-greymont": {
       "achievements": {},
@@ -1739,13 +1739,13 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795228596000,
-      "level": 16,
+      "last_login": 1795273236000,
+      "level": 17,
       "professions": {
         "Blacksmithing": 62,
         "Cooking": 1,
-        "First Aid": 75,
-        "Mining": 70
+        "First Aid": 80,
+        "Mining": 74
       },
       "race": "Orc",
       "raids": {},
@@ -1757,7 +1757,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 7570,
+          "raw": 7851,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1777,7 +1777,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 9195,
+          "raw": 9963,
           "tier": 5
         },
         "Powderfuse": {
@@ -1792,12 +1792,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3562,
+          "raw": 3925,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 887,
+          "raw": 1193,
           "tier": 3
         }
       },
@@ -1806,12 +1806,12 @@
         "deaths": 7,
         "flights": 4,
         "health_potions": 2,
-        "hearths": 1,
-        "killing_blows": 372,
-        "mobs": 559,
-        "quests": 78
+        "hearths": 2,
+        "killing_blows": 454,
+        "mobs": 647,
+        "quests": 89
       },
-      "xp": 1252
+      "xp": 1297
     },
     "us:tired-mexican": {
       "achievements": {
