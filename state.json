@@ -426,12 +426,12 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795214045000,
+      "last_login": 1795356277000,
       "level": 18,
       "professions": {
         "Cooking": 1,
         "Leatherworking": 60,
-        "Skinning": 123
+        "Skinning": 124
       },
       "race": "Orc",
       "raids": {},
@@ -443,7 +443,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 8022,
+          "raw": 8160,
           "tier": 4
         },
         "Everlook": {
@@ -458,7 +458,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 10491,
+          "raw": 10628,
           "tier": 5
         },
         "Powderfuse": {
@@ -473,28 +473,28 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4172,
+          "raw": 4385,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1396,
+          "raw": 2046,
           "tier": 3
         }
       },
       "spec": "Enhancement",
       "stats": {
         "deaths": 3,
-        "drinks": 3,
-        "flights": 7,
+        "drinks": 4,
+        "flights": 8,
         "food": 2,
         "health_potions": 1,
         "hearths": 6,
-        "killing_blows": 503,
-        "mobs": 665,
-        "quests": 102
+        "killing_blows": 622,
+        "mobs": 784,
+        "quests": 108
       },
-      "xp": 100
+      "xp": 18296
     },
     "us:bocus-cho": {
       "achievements": {
@@ -505,7 +505,7 @@
       "class": "Rogue",
       "dungeons": {},
       "gear": {},
-      "last_login": 1795182329000,
+      "last_login": 1795356398000,
       "level": 14,
       "professions": {
         "Alchemy": 62,
@@ -688,6 +688,7 @@
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
+        "61502": "Novice Druid",
         "728": "Explore Durotar",
         "736": "Explore Mulgore",
         "855": "Explore Moonglade"
@@ -695,13 +696,16 @@
       "boss_kills": {},
       "class": "Warrior",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Druid"
+      ],
       "gear": {
         "250620": {
           "name": "Gemmed Copper Boots",
           "quality": "RARE"
         }
       },
-      "last_login": 1795032117000,
+      "last_login": 1795333719000,
       "level": 16,
       "professions": {
         "Blacksmithing": 71,
@@ -1054,6 +1058,7 @@
     },
     "us:dio-nysus": {
       "achievements": {
+        "61502": "Novice Druid",
         "728": "Explore Durotar",
         "736": "Explore Mulgore",
         "855": "Explore Moonglade"
@@ -1087,21 +1092,21 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795129586000,
-      "level": 24,
+      "last_login": 1795336384000,
+      "level": 25,
       "professions": {
-        "Alchemy": 94,
+        "Alchemy": 114,
         "Cooking": 111,
         "First Aid": 75,
         "Fishing": 101,
-        "Herbalism": 107
+        "Herbalism": 115
       },
       "race": "Tauren",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 822,
+          "raw": 897,
           "tier": 3
         },
         "Cenarion Circle": {
@@ -1111,7 +1116,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 4476,
+          "raw": 4613,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1121,54 +1126,55 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 822,
+          "raw": 897,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 822,
+          "raw": 897,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 6238,
+          "raw": 6788,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 822,
+          "raw": 897,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1145,
+          "raw": 1295,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Honored",
-          "raw": 10273,
+          "raw": 10411,
           "tier": 5
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3045,
+          "raw": 3182,
           "tier": 4
         }
       },
       "spec": "Feral Combat",
       "stats": {
         "critters": 33,
-        "deaths": 42,
+        "deaths": 43,
         "drinks": 12,
         "flights": 6,
         "food": 29,
-        "health_potions": 27,
-        "hearths": 16,
-        "killing_blows": 1005,
-        "mobs": 1859,
-        "quests": 158
+        "health_potions": 29,
+        "hearths": 17,
+        "killing_blows": 1053,
+        "mana_potions": 2,
+        "mobs": 1910,
+        "quests": 165
       },
-      "xp": 26133
+      "xp": 10615
     },
     "us:gelato-delicioso": {
       "achievements": {
@@ -1989,6 +1995,7 @@
     },
     "jamarr": {
       "achievements": {
+        "61502": "Novice Druid",
         "728": "Explore Durotar",
         "736": "Explore Mulgore",
         "855": "Explore Moonglade"
