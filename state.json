@@ -772,9 +772,14 @@
       "achievements": {
         "62000": "Novice Priest",
         "62001": "Experienced Priest",
+        "62002": "Master Priest",
         "62028": "Journeyman Tailor",
+        "62029": "Expert Tailor",
         "62032": "Experienced Spelunker",
-        "846": "Explore Thousand Needles"
+        "768": "Explore Tirisfal Glades",
+        "846": "Explore Thousand Needles",
+        "854": "Explore Un'Goro Crater",
+        "855": "Explore Moonglade"
       },
       "boss_kills": {
         "15027": {
@@ -785,6 +790,13 @@
       },
       "class": "Paladin",
       "dungeons": {},
+      "earned_achievements": [
+        "Expert Tailor",
+        "Explore Moonglade",
+        "Explore Tirisfal Glades",
+        "Explore Un'Goro Crater",
+        "Master Priest"
+      ],
       "gear": {
         "12994": {
           "name": "Thorbia's Gauntlets",
@@ -799,7 +811,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1794939812000,
+      "last_login": 1795315669000,
       "level": 20,
       "professions": {
         "Blacksmithing": 105,
@@ -823,8 +835,13 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3176,
+          "raw": 3201,
           "tier": 4
+        },
+        "Earthen Ring": {
+          "name": "Neutral",
+          "raw": 200,
+          "tier": 3
         },
         "Everlook": {
           "name": "Neutral",
@@ -838,7 +855,7 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 4620,
+          "raw": 4645,
           "tier": 4
         },
         "Powderfuse": {
@@ -853,29 +870,29 @@
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 2171,
+          "raw": 2196,
           "tier": 3
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 10501,
+          "raw": 10601,
           "tier": 5
         }
       },
       "spec": "Protection",
       "stats": {
         "deaths": 8,
-        "drinks": 2,
-        "flights": 26,
+        "drinks": 3,
+        "flights": 28,
         "food": 3,
         "health_potions": 6,
-        "hearths": 24,
-        "killing_blows": 704,
+        "hearths": 25,
+        "killing_blows": 740,
         "mana_potions": 3,
-        "mobs": 812,
-        "quests": 131
+        "mobs": 855,
+        "quests": 136
       },
-      "xp": 1606
+      "xp": 15282
     },
     "us:daxii-highwind": {
       "achievements": {},
@@ -1226,7 +1243,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795240867000,
+      "last_login": 1795317176000,
       "level": 28,
       "professions": {
         "Cooking": 114,
@@ -1322,19 +1339,20 @@
     },
     "us:guy-noir": {
       "achievements": {
+        "62006": "Novice Shaman",
         "855": "Explore Moonglade"
       },
       "boss_kills": {},
       "class": "Rogue",
       "dungeons": {},
       "gear": {},
-      "last_login": 1794952985000,
+      "last_login": 1795316988000,
       "level": 11,
       "professions": {
-        "Cooking": 16,
-        "First Aid": 46,
-        "Herbalism": 35,
-        "Skinning": 60
+        "Cooking": 30,
+        "First Aid": 53,
+        "Herbalism": 44,
+        "Skinning": 75
       },
       "race": "Undead",
       "raids": {},
@@ -1346,35 +1364,35 @@
         },
         "Darkspear Trolls": {
           "name": "Neutral",
-          "raw": 2062,
+          "raw": 2108,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Neutral",
-          "raw": 2062,
+          "raw": 2108,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Neutral",
-          "raw": 562,
+          "raw": 608,
           "tier": 3
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 7110,
+          "raw": 7445,
           "tier": 4
         }
       },
       "spec": "Assassination",
       "stats": {
-        "deaths": 2,
-        "food": 4,
-        "health_potions": 2,
-        "killing_blows": 320,
-        "mobs": 331,
-        "quests": 44
+        "deaths": 3,
+        "food": 6,
+        "health_potions": 3,
+        "killing_blows": 345,
+        "mobs": 357,
+        "quests": 50
       },
-      "xp": 996
+      "xp": 7102
     },
     "us:hefe-weizenson": {
       "achievements": {
@@ -1526,12 +1544,12 @@
       "class": "Druid",
       "dungeons": {},
       "gear": {},
-      "last_login": 1795235897000,
+      "last_login": 1795317061000,
       "level": 14,
       "professions": {
         "Alchemy": 92,
         "Cooking": 68,
-        "First Aid": 50,
+        "First Aid": 55,
         "Fishing": 9,
         "Herbalism": 75
       },
@@ -1743,25 +1761,25 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795292425000,
-      "level": 17,
+      "last_login": 1795318001000,
+      "level": 18,
       "professions": {
-        "Blacksmithing": 66,
+        "Blacksmithing": 67,
         "Cooking": 1,
         "First Aid": 87,
-        "Mining": 85
+        "Mining": 86
       },
       "race": "Orc",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 787,
+          "raw": 1000,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 7976,
+          "raw": 8026,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1771,51 +1789,51 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 787,
+          "raw": 1000,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 787,
+          "raw": 1000,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 10388,
+          "raw": 10438,
           "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 787,
+          "raw": 1000,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 1475,
+          "raw": 1900,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4125,
+          "raw": 4175,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1318,
+          "raw": 1368,
           "tier": 3
         }
       },
       "spec": "Fury",
       "stats": {
-        "deaths": 7,
+        "deaths": 8,
         "flights": 4,
         "health_potions": 2,
-        "hearths": 2,
-        "killing_blows": 492,
-        "mobs": 720,
-        "quests": 94
+        "hearths": 3,
+        "killing_blows": 535,
+        "mobs": 782,
+        "quests": 97
       },
-      "xp": 10578
+      "xp": 1524
     },
     "us:tired-mexican": {
       "achievements": {
@@ -1987,9 +2005,14 @@
       "achievements": {
         "62000": "Novice Priest",
         "62001": "Experienced Priest",
+        "62002": "Master Priest",
         "62028": "Journeyman Tailor",
+        "62029": "Expert Tailor",
         "62032": "Experienced Spelunker",
-        "846": "Explore Thousand Needles"
+        "768": "Explore Tirisfal Glades",
+        "846": "Explore Thousand Needles",
+        "854": "Explore Un'Goro Crater",
+        "855": "Explore Moonglade"
       },
       "mounts": {
         "3038": "Black Skeletal Horse",
