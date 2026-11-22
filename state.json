@@ -212,6 +212,16 @@
           "boss": "Bazzalan",
           "count": 2,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Paladin",
@@ -229,13 +239,21 @@
           "name": "Gemmed Copper Boots",
           "quality": "RARE"
         },
+        "271208": {
+          "name": "Grip of Fear",
+          "quality": "RARE"
+        },
+        "271209": {
+          "name": "Bonerust Leggings",
+          "quality": "RARE"
+        },
         "273005": {
           "name": "Satyrskin Cloak",
           "quality": "RARE"
         }
       },
-      "last_login": 1795287632000,
-      "level": 21,
+      "last_login": 1795381261000,
+      "level": 22,
       "professions": {
         "Blacksmithing": 101,
         "Cooking": 132,
@@ -309,17 +327,18 @@
       },
       "spec": "Retribution",
       "stats": {
+        "critters": 15,
         "deaths": 3,
-        "drinks": 6,
-        "flights": 33,
-        "food": 37,
-        "health_potions": 10,
-        "hearths": 28,
-        "killing_blows": 1415,
-        "mobs": 1715,
+        "drinks": 12,
+        "flights": 34,
+        "food": 39,
+        "health_potions": 11,
+        "hearths": 29,
+        "killing_blows": 1551,
+        "mobs": 2143,
         "quests": 179
       },
-      "xp": 25021
+      "xp": 19836
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -790,6 +809,16 @@
           "boss": "Bazzalan",
           "count": 1,
           "instance": "Ragefire Chasm"
+        },
+        "15028": {
+          "boss": "Mutanus the Devourer",
+          "count": 1,
+          "instance": "Wailing Caverns"
+        },
+        "63571": {
+          "boss": "Rath'mael",
+          "count": 1,
+          "instance": "Ruins of Lordaeron"
         }
       },
       "class": "Paladin",
@@ -806,6 +835,10 @@
           "name": "Thorbia's Gauntlets",
           "quality": "RARE"
         },
+        "13245": {
+          "name": "Kresh's Back",
+          "quality": "RARE"
+        },
         "14145": {
           "name": "Cursed Felblade",
           "quality": "RARE"
@@ -813,16 +846,24 @@
         "250621": {
           "name": "Strange Copper Boots",
           "quality": "RARE"
+        },
+        "271201": {
+          "name": "Atrophic Girdle",
+          "quality": "RARE"
+        },
+        "6629": {
+          "name": "Sporid Cape",
+          "quality": "RARE"
         }
       },
-      "last_login": 1795315669000,
-      "level": 20,
+      "last_login": 1795381374000,
+      "level": 21,
       "professions": {
         "Blacksmithing": 105,
         "Cooking": 1,
         "First Aid": 1,
         "Fishing": 1,
-        "Mining": 123
+        "Mining": 124
       },
       "race": "Undead",
       "raids": {},
@@ -885,18 +926,19 @@
       },
       "spec": "Protection",
       "stats": {
+        "critters": 15,
         "deaths": 8,
-        "drinks": 3,
-        "flights": 28,
+        "drinks": 9,
+        "flights": 29,
         "food": 3,
         "health_potions": 6,
-        "hearths": 25,
-        "killing_blows": 740,
+        "hearths": 26,
+        "killing_blows": 817,
         "mana_potions": 3,
-        "mobs": 855,
-        "quests": 136
+        "mobs": 1284,
+        "quests": 137
       },
-      "xp": 15282
+      "xp": 25165
     },
     "us:daxii-highwind": {
       "achievements": {},
@@ -1092,14 +1134,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795336384000,
+      "last_login": 1795378389000,
       "level": 25,
       "professions": {
         "Alchemy": 114,
-        "Cooking": 111,
-        "First Aid": 75,
+        "Cooking": 136,
+        "First Aid": 79,
         "Fishing": 101,
-        "Herbalism": 115
+        "Herbalism": 117
       },
       "race": "Tauren",
       "raids": {},
@@ -1163,18 +1205,18 @@
       "spec": "Feral Combat",
       "stats": {
         "critters": 33,
-        "deaths": 43,
+        "deaths": 48,
         "drinks": 12,
         "flights": 6,
         "food": 29,
         "health_potions": 29,
-        "hearths": 17,
-        "killing_blows": 1053,
+        "hearths": 18,
+        "killing_blows": 1065,
         "mana_potions": 2,
-        "mobs": 1910,
-        "quests": 165
+        "mobs": 1922,
+        "quests": 168
       },
-      "xp": 10615
+      "xp": 17127
     },
     "us:gelato-delicioso": {
       "achievements": {
@@ -1734,6 +1776,64 @@
         "quests": 184
       },
       "xp": 15289
+    },
+    "us:nona-velsargres": {
+      "achievements": {
+        "728": "Explore Durotar"
+      },
+      "boss_kills": {},
+      "class": "Warlock",
+      "dungeons": {},
+      "gear": {},
+      "last_login": 1795370468000,
+      "level": 15,
+      "professions": {
+        "Alchemy": 66,
+        "Herbalism": 71
+      },
+      "race": "Undead",
+      "raids": {},
+      "reputations": {
+        "Argent Dawn": {
+          "name": "Neutral",
+          "raw": 650,
+          "tier": 3
+        },
+        "Darkspear Trolls": {
+          "name": "Neutral",
+          "raw": 2361,
+          "tier": 3
+        },
+        "Orgrimmar": {
+          "name": "Neutral",
+          "raw": 2473,
+          "tier": 3
+        },
+        "Thunder Bluff": {
+          "name": "Neutral",
+          "raw": 861,
+          "tier": 3
+        },
+        "Undercity": {
+          "name": "Honored",
+          "raw": 9967,
+          "tier": 5
+        }
+      },
+      "spec": "Demonology",
+      "stats": {
+        "critters": 1,
+        "deaths": 7,
+        "drinks": 3,
+        "flights": 3,
+        "food": 4,
+        "health_potions": 2,
+        "hearths": 6,
+        "killing_blows": 511,
+        "mobs": 555,
+        "quests": 85
+      },
+      "xp": 3875
     },
     "us:pocus-below": {
       "achievements": {
@@ -2530,6 +2630,36 @@
           "quests": 157
         },
         "xp": 17464
+      },
+      "us:nona-velsargres": {
+        "achievements": 0,
+        "clears": {},
+        "epics": [],
+        "level": 15,
+        "professions": {
+          "Alchemy": 66,
+          "Herbalism": 71
+        },
+        "rep": {
+          "Argent Dawn": 650,
+          "Darkspear Trolls": 2361,
+          "Orgrimmar": 2473,
+          "Thunder Bluff": 861,
+          "Undercity": 9967
+        },
+        "stats": {
+          "critters": 1,
+          "deaths": 7,
+          "drinks": 3,
+          "flights": 3,
+          "food": 4,
+          "health_potions": 2,
+          "hearths": 6,
+          "killing_blows": 511,
+          "mobs": 555,
+          "quests": 85
+        },
+        "xp": 3875
       },
       "us:pocus-below": {
         "achievements": 1,
