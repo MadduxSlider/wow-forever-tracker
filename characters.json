@@ -93,6 +93,12 @@
       "characters": [
         { "name": "Meiji", "surname": "Restore" }
       ]
+    },
+    {
+      "name": "Kiki",
+      "characters": [
+        { "name": "Shae", "surname": "Theslay" }
+      ]
     }
   ]
 }
