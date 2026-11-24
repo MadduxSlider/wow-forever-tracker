@@ -930,7 +930,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795478672000,
+      "last_login": 1795522451000,
       "level": 28,
       "professions": {
         "Blacksmithing": 145,
@@ -1003,10 +1003,10 @@
         "critters": 19,
         "deaths": 9,
         "drinks": 14,
-        "flights": 57,
+        "flights": 58,
         "food": 8,
         "health_potions": 9,
-        "hearths": 36,
+        "hearths": 37,
         "killing_blows": 1285,
         "mana_potions": 9,
         "mobs": 1876,
@@ -1068,7 +1068,8 @@
     "us:dezriloc-magenar": {
       "achievements": {
         "62006": "Novice Shaman",
-        "728": "Explore Durotar"
+        "728": "Explore Durotar",
+        "847": "Explore Stonetalon Mountains"
       },
       "boss_kills": {
         "15027": {
@@ -1081,6 +1082,11 @@
           "count": 1,
           "instance": "Wailing Caverns"
         },
+        "6137": {
+          "boss": "Aku'mai",
+          "count": 1,
+          "instance": "Blackfathom Deeps"
+        },
         "63571": {
           "boss": "Rath'mael",
           "count": 1,
@@ -1090,7 +1096,8 @@
       "class": "Shaman",
       "dungeons": {},
       "earned_achievements": [
-        "Novice Shaman"
+        "Novice Shaman",
+        "Explore Stonetalon Mountains"
       ],
       "gear": {
         "10411": {
@@ -1109,24 +1116,28 @@
           "name": "Gnarled Necromancer's Staff",
           "quality": "RARE"
         },
+        "270031": {
+          "name": "Dark Ritual Leggings",
+          "quality": "RARE"
+        },
         "286978": {
           "name": "Rotmender's Garb",
           "quality": "RARE"
         }
       },
-      "last_login": 1795474724000,
-      "level": 25,
+      "last_login": 1795502086000,
+      "level": 26,
       "professions": {
         "Cooking": 1,
-        "Engineering": 111,
-        "Mining": 110
+        "Engineering": 116,
+        "Mining": 120
       },
       "race": "Troll",
       "raids": {},
       "reputations": {
         "Argent Dawn": {
           "name": "Neutral",
-          "raw": 350,
+          "raw": 550,
           "tier": 3
         },
         "Booty Bay": {
@@ -1135,9 +1146,9 @@
           "tier": 3
         },
         "Darkspear Trolls": {
-          "name": "Friendly",
-          "raw": 8932,
-          "tier": 4
+          "name": "Honored",
+          "raw": 9557,
+          "tier": 5
         },
         "Durotar Supply and Logistics": {
           "name": "Neutral",
@@ -1146,7 +1157,7 @@
         },
         "Earthen Ring": {
           "name": "Neutral",
-          "raw": 100,
+          "raw": 400,
           "tier": 3
         },
         "Everlook": {
@@ -1161,7 +1172,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 9182,
+          "raw": 9376,
           "tier": 5
         },
         "Powderfuse": {
@@ -1176,12 +1187,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5201,
+          "raw": 5745,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3200,
+          "raw": 3393,
           "tier": 4
         },
         "Warsong Outriders": {
@@ -1193,19 +1204,19 @@
       "spec": "Enhancement",
       "stats": {
         "critters": 23,
-        "deaths": 36,
-        "drinks": 85,
-        "flights": 41,
+        "deaths": 39,
+        "drinks": 115,
+        "flights": 44,
         "food": 11,
         "health_potions": 15,
-        "hearths": 14,
+        "hearths": 15,
         "honorable_kills": 163,
-        "killing_blows": 943,
-        "mana_potions": 2,
-        "mobs": 1583,
-        "quests": 165
+        "killing_blows": 1015,
+        "mana_potions": 3,
+        "mobs": 1847,
+        "quests": 175
       },
-      "xp": 1014
+      "xp": 18758
     },
     "us:dio-nysus": {
       "achievements": {
@@ -2363,7 +2374,8 @@
     "don": {
       "achievements": {
         "62006": "Novice Shaman",
-        "728": "Explore Durotar"
+        "728": "Explore Durotar",
+        "847": "Explore Stonetalon Mountains"
       },
       "mounts": {}
     },
