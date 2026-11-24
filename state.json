@@ -271,14 +271,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795438453000,
+      "last_login": 1795494216000,
       "level": 24,
       "professions": {
         "Blacksmithing": 101,
         "Cooking": 132,
         "First Aid": 100,
         "Fishing": 113,
-        "Mining": 127
+        "Mining": 136
       },
       "race": "Undead",
       "raids": {},
@@ -290,12 +290,12 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1546,
+          "raw": 1717,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 3915,
+          "raw": 4117,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -310,38 +310,43 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1546,
+          "raw": 1717,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1546,
+          "raw": 1717,
           "tier": 3
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5452,
+          "raw": 6225,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1546,
+          "raw": 1717,
           "tier": 3
         },
         "Ratchet": {
           "name": "Neutral",
-          "raw": 2593,
+          "raw": 2934,
           "tier": 3
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 3067,
+          "raw": 3277,
           "tier": 4
         },
         "Undercity": {
           "name": "Honored",
-          "raw": 13805,
+          "raw": 14007,
           "tier": 5
+        },
+        "Warsong Outriders": {
+          "name": "Neutral",
+          "raw": 0,
+          "tier": 3
         }
       },
       "spec": "Retribution",
@@ -349,15 +354,15 @@
         "critters": 25,
         "deaths": 3,
         "drinks": 16,
-        "flights": 44,
+        "flights": 45,
         "food": 42,
         "health_potions": 12,
-        "hearths": 33,
-        "killing_blows": 1783,
-        "mobs": 2480,
-        "quests": 206
+        "hearths": 35,
+        "killing_blows": 1880,
+        "mobs": 2586,
+        "quests": 220
       },
-      "xp": 7925
+      "xp": 24260
     },
     "us:belgara-bluemoon": {
       "achievements": {
@@ -669,6 +674,10 @@
           "name": "Tuskwrap Belt",
           "quality": "RARE"
         },
+        "2800": {
+          "name": "Black Velvet Robes",
+          "quality": "RARE"
+        },
         "6414": {
           "name": "Seal of Sylvanas",
           "quality": "RARE"
@@ -678,14 +687,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795400956000,
-      "level": 27,
+      "last_login": 1795482731000,
+      "level": 28,
       "professions": {
         "Cooking": 130,
-        "Enchanting": 56,
+        "Enchanting": 100,
         "First Aid": 80,
         "Fishing": 150,
-        "Tailoring": 80
+        "Tailoring": 107
       },
       "race": "Troll",
       "raids": {},
@@ -697,7 +706,7 @@
         },
         "Darkspear Trolls": {
           "name": "Honored",
-          "raw": 10156,
+          "raw": 10350,
           "tier": 5
         },
         "Durotar Supply and Logistics": {
@@ -717,7 +726,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 12018,
+          "raw": 12212,
           "tier": 5
         },
         "Powderfuse": {
@@ -732,29 +741,29 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 6733,
+          "raw": 7508,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 4230,
+          "raw": 4423,
           "tier": 4
         }
       },
       "spec": "Fire",
       "stats": {
-        "critters": 37,
+        "critters": 40,
         "deaths": 17,
-        "drinks": 258,
-        "flights": 24,
-        "food": 58,
+        "drinks": 323,
+        "flights": 26,
+        "food": 66,
         "health_potions": 11,
-        "hearths": 16,
-        "killing_blows": 975,
-        "mobs": 1944,
-        "quests": 179
+        "hearths": 18,
+        "killing_blows": 1182,
+        "mobs": 2266,
+        "quests": 187
       },
-      "xp": 10869
+      "xp": 26070
     },
     "us:d%C3%A6mon-targ%C3%A2ryen": {
       "achievements": {
@@ -912,12 +921,16 @@
           "name": "Shining Silver Breastplate",
           "quality": "RARE"
         },
+        "6504": {
+          "name": "Wingblade",
+          "quality": "RARE"
+        },
         "6629": {
           "name": "Sporid Cape",
           "quality": "RARE"
         }
       },
-      "last_login": 1795471089000,
+      "last_login": 1795478672000,
       "level": 28,
       "professions": {
         "Blacksmithing": 145,
@@ -993,13 +1006,13 @@
         "flights": 57,
         "food": 8,
         "health_potions": 9,
-        "hearths": 35,
-        "killing_blows": 1283,
+        "hearths": 36,
+        "killing_blows": 1285,
         "mana_potions": 9,
-        "mobs": 1874,
-        "quests": 199
+        "mobs": 1876,
+        "quests": 201
       },
-      "xp": 7416
+      "xp": 12450
     },
     "us:daxii-highwind": {
       "achievements": {},
@@ -1054,6 +1067,7 @@
     },
     "us:dezriloc-magenar": {
       "achievements": {
+        "62006": "Novice Shaman",
         "728": "Explore Durotar"
       },
       "boss_kills": {
@@ -1075,6 +1089,9 @@
       },
       "class": "Shaman",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Shaman"
+      ],
       "gear": {
         "10411": {
           "name": "Footpads of the Fang",
@@ -1097,12 +1114,12 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795404589000,
-      "level": 24,
+      "last_login": 1795474724000,
+      "level": 25,
       "professions": {
         "Cooking": 1,
         "Engineering": 111,
-        "Mining": 106
+        "Mining": 110
       },
       "race": "Troll",
       "raids": {},
@@ -1114,12 +1131,12 @@
         },
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 2097,
+          "raw": 2172,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 8826,
+          "raw": 8932,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1134,37 +1151,37 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 2097,
+          "raw": 2172,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 2097,
+          "raw": 2172,
           "tier": 3
         },
         "Orgrimmar": {
-          "name": "Friendly",
-          "raw": 8963,
-          "tier": 4
+          "name": "Honored",
+          "raw": 9182,
+          "tier": 5
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 2097,
+          "raw": 2172,
           "tier": 3
         },
         "Ratchet": {
           "name": "Friendly",
-          "raw": 3695,
+          "raw": 3845,
           "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4888,
+          "raw": 5201,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3093,
+          "raw": 3200,
           "tier": 4
         },
         "Warsong Outriders": {
@@ -1175,20 +1192,20 @@
       },
       "spec": "Enhancement",
       "stats": {
-        "critters": 22,
-        "deaths": 35,
-        "drinks": 72,
-        "flights": 39,
+        "critters": 23,
+        "deaths": 36,
+        "drinks": 85,
+        "flights": 41,
         "food": 11,
-        "health_potions": 13,
+        "health_potions": 15,
         "hearths": 14,
         "honorable_kills": 163,
-        "killing_blows": 876,
+        "killing_blows": 943,
         "mana_potions": 2,
-        "mobs": 1505,
-        "quests": 158
+        "mobs": 1583,
+        "quests": 165
       },
-      "xp": 9711
+      "xp": 1014
     },
     "us:dio-nysus": {
       "achievements": {
@@ -1318,7 +1335,7 @@
       "boss_kills": {
         "1092": {
           "boss": "Archmage Arugal",
-          "count": 1,
+          "count": 2,
           "instance": "Shadowfang Keep"
         },
         "15027": {
@@ -1396,26 +1413,26 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795403209000,
-      "level": 28,
+      "last_login": 1795492578000,
+      "level": 29,
       "professions": {
-        "Cooking": 114,
-        "First Aid": 133,
+        "Cooking": 120,
+        "First Aid": 144,
         "Fishing": 82,
         "Leatherworking": 130,
-        "Skinning": 193
+        "Skinning": 194
       },
       "race": "Windshaper Skyborne",
       "raids": {},
       "reputations": {
         "Booty Bay": {
           "name": "Neutral",
-          "raw": 1812,
+          "raw": 1887,
           "tier": 3
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 4328,
+          "raw": 4528,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -1430,12 +1447,12 @@
         },
         "Everlook": {
           "name": "Neutral",
-          "raw": 1812,
+          "raw": 1887,
           "tier": 3
         },
         "Gadgetzan": {
           "name": "Neutral",
-          "raw": 1812,
+          "raw": 1887,
           "tier": 3
         },
         "Nightclaw Druids": {
@@ -1445,27 +1462,27 @@
         },
         "Orgrimmar": {
           "name": "Friendly",
-          "raw": 5885,
+          "raw": 6028,
           "tier": 4
         },
         "Powderfuse": {
           "name": "Neutral",
-          "raw": 1812,
+          "raw": 1887,
           "tier": 3
         },
         "Ratchet": {
           "name": "Friendly",
-          "raw": 3124,
+          "raw": 3274,
           "tier": 4
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 6715,
+          "raw": 6783,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 4166,
+          "raw": 4235,
           "tier": 4
         },
         "Windshapers": {
@@ -1476,19 +1493,19 @@
       },
       "spec": "Enhancement",
       "stats": {
-        "critters": 60,
+        "critters": 69,
         "deaths": 17,
-        "drinks": 72,
-        "flights": 47,
-        "food": 35,
-        "health_potions": 14,
-        "hearths": 15,
-        "killing_blows": 1789,
-        "mana_potions": 9,
-        "mobs": 3196,
-        "quests": 232
+        "drinks": 84,
+        "flights": 52,
+        "food": 38,
+        "health_potions": 15,
+        "hearths": 17,
+        "killing_blows": 1977,
+        "mana_potions": 10,
+        "mobs": 3541,
+        "quests": 239
       },
-      "xp": 34031
+      "xp": 27570
     },
     "us:guy-noir": {
       "achievements": {
@@ -2120,14 +2137,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795403957000,
+      "last_login": 1795491831000,
       "level": 20,
       "professions": {
         "Alchemy": 85,
         "Cooking": 25,
         "First Aid": 84,
         "Fishing": 33,
-        "Herbalism": 106
+        "Herbalism": 114
       },
       "race": "Windshaper Skyborne",
       "raids": {},
@@ -2196,18 +2213,18 @@
       "spec": "Elemental Combat",
       "stats": {
         "critters": 10,
-        "deaths": 8,
+        "deaths": 9,
         "drinks": 33,
-        "flights": 22,
+        "flights": 25,
         "food": 6,
         "health_potions": 10,
-        "hearths": 14,
-        "killing_blows": 693,
+        "hearths": 15,
+        "killing_blows": 696,
         "mana_potions": 10,
-        "mobs": 1213,
-        "quests": 148
+        "mobs": 1216,
+        "quests": 149
       },
-      "xp": 19935
+      "xp": 22125
     },
     "us:tired-mexican": {
       "achievements": {
@@ -2345,6 +2362,7 @@
     },
     "don": {
       "achievements": {
+        "62006": "Novice Shaman",
         "728": "Explore Durotar"
       },
       "mounts": {}
