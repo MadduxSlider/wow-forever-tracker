@@ -1383,6 +1383,7 @@
     "us:gelato-delicioso": {
       "achievements": {
         "62006": "Novice Shaman",
+        "62024": "Journeyman Leatherworker",
         "855": "Explore Moonglade"
       },
       "boss_kills": {
@@ -1410,7 +1411,8 @@
       "class": "Shaman",
       "dungeons": {},
       "earned_achievements": [
-        "Novice Shaman"
+        "Novice Shaman",
+        "Journeyman Leatherworker"
       ],
       "gear": {
         "10412": {
@@ -1466,13 +1468,13 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795580973000,
+      "last_login": 1795624099000,
       "level": 30,
       "professions": {
         "Cooking": 153,
         "First Aid": 150,
         "Fishing": 82,
-        "Leatherworking": 130,
+        "Leatherworking": 151,
         "Skinning": 205
       },
       "race": "Windshaper Skyborne",
@@ -1549,7 +1551,7 @@
         "critters": 69,
         "deaths": 17,
         "drinks": 87,
-        "flights": 56,
+        "flights": 57,
         "food": 41,
         "health_potions": 15,
         "hearths": 18,
@@ -2182,14 +2184,14 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795491831000,
-      "level": 20,
+      "last_login": 1795634301000,
+      "level": 21,
       "professions": {
         "Alchemy": 85,
         "Cooking": 25,
         "First Aid": 84,
         "Fishing": 33,
-        "Herbalism": 114
+        "Herbalism": 116
       },
       "race": "Windshaper Skyborne",
       "raids": {},
@@ -2258,18 +2260,18 @@
       "spec": "Elemental Combat",
       "stats": {
         "critters": 10,
-        "deaths": 9,
-        "drinks": 33,
-        "flights": 25,
+        "deaths": 14,
+        "drinks": 34,
+        "flights": 31,
         "food": 6,
-        "health_potions": 10,
-        "hearths": 15,
-        "killing_blows": 696,
-        "mana_potions": 10,
-        "mobs": 1216,
-        "quests": 149
+        "health_potions": 11,
+        "hearths": 16,
+        "killing_blows": 699,
+        "mana_potions": 11,
+        "mobs": 1219,
+        "quests": 154
       },
-      "xp": 22125
+      "xp": 7925
     },
     "us:tired-mexican": {
       "achievements": {
@@ -2482,6 +2484,7 @@
     "tim": {
       "achievements": {
         "62006": "Novice Shaman",
+        "62024": "Journeyman Leatherworker",
         "855": "Explore Moonglade"
       },
       "mounts": {
