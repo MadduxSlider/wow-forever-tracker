@@ -457,6 +457,7 @@
     "us:boat-show": {
       "achievements": {
         "61994": "Novice Mage",
+        "62006": "Novice Shaman",
         "728": "Explore Durotar"
       },
       "boss_kills": {
@@ -478,6 +479,9 @@
       },
       "class": "Shaman",
       "dungeons": {},
+      "earned_achievements": [
+        "Novice Shaman"
+      ],
       "gear": {
         "15424": {
           "name": "Axe of Orgrimmar",
@@ -504,12 +508,12 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795820436000,
-      "level": 24,
+      "last_login": 1795828668000,
+      "level": 25,
       "professions": {
         "Cooking": 1,
         "Leatherworking": 90,
-        "Skinning": 164
+        "Skinning": 165
       },
       "race": "Orc",
       "raids": {},
@@ -521,7 +525,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 8622,
+          "raw": 8647,
           "tier": 4
         },
         "Everlook": {
@@ -536,7 +540,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 11447,
+          "raw": 11547,
           "tier": 5
         },
         "Powderfuse": {
@@ -551,12 +555,12 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 5710,
+          "raw": 5735,
           "tier": 4
         },
         "Undercity": {
           "name": "Friendly",
-          "raw": 3127,
+          "raw": 3152,
           "tier": 4
         }
       },
@@ -565,15 +569,15 @@
         "critters": 15,
         "deaths": 10,
         "drinks": 4,
-        "flights": 15,
+        "flights": 16,
         "food": 2,
         "health_potions": 3,
         "hearths": 11,
-        "killing_blows": 887,
-        "mobs": 1401,
-        "quests": 159
+        "killing_blows": 892,
+        "mobs": 1406,
+        "quests": 161
       },
-      "xp": 29943
+      "xp": 3187
     },
     "us:bocus-cho": {
       "achievements": {
@@ -1768,20 +1772,21 @@
     "us:hodorhodor-hodor": {
       "achievements": {
         "62006": "Novice Shaman",
+        "62024": "Journeyman Leatherworker",
         "855": "Explore Moonglade"
       },
       "boss_kills": {},
       "class": "Druid",
       "dungeons": {},
       "gear": {},
-      "last_login": 1795452337000,
+      "last_login": 1795839206000,
       "level": 14,
       "professions": {
         "Alchemy": 92,
         "Cooking": 68,
-        "First Aid": 55,
+        "First Aid": 58,
         "Fishing": 9,
-        "Herbalism": 75
+        "Herbalism": 77
       },
       "race": "Tauren",
       "raids": {},
@@ -1815,16 +1820,16 @@
       "spec": "Feral Combat",
       "stats": {
         "deaths": 4,
-        "drinks": 8,
-        "flights": 3,
-        "food": 6,
-        "health_potions": 1,
+        "drinks": 9,
+        "flights": 4,
+        "food": 9,
+        "health_potions": 3,
         "hearths": 1,
-        "killing_blows": 419,
-        "mobs": 471,
+        "killing_blows": 451,
+        "mobs": 505,
         "quests": 71
       },
-      "xp": 3564
+      "xp": 10154
     },
     "us:meiji-restore": {
       "achievements": {
@@ -2059,6 +2064,7 @@
     "us:pocus-below": {
       "achievements": {
         "61994": "Novice Mage",
+        "62006": "Novice Shaman",
         "728": "Explore Durotar"
       },
       "boss_kills": {
@@ -2088,13 +2094,13 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795318001000,
+      "last_login": 1795830975000,
       "level": 18,
       "professions": {
         "Blacksmithing": 67,
         "Cooking": 1,
         "First Aid": 87,
-        "Mining": 86
+        "Mining": 87
       },
       "race": "Orc",
       "raids": {},
@@ -2106,7 +2112,7 @@
         },
         "Darkspear Trolls": {
           "name": "Friendly",
-          "raw": 8026,
+          "raw": 8160,
           "tier": 4
         },
         "Durotar Supply and Logistics": {
@@ -2126,7 +2132,7 @@
         },
         "Orgrimmar": {
           "name": "Honored",
-          "raw": 10438,
+          "raw": 10891,
           "tier": 5
         },
         "Powderfuse": {
@@ -2141,26 +2147,27 @@
         },
         "Thunder Bluff": {
           "name": "Friendly",
-          "raw": 4175,
+          "raw": 4335,
           "tier": 4
         },
         "Undercity": {
           "name": "Neutral",
-          "raw": 1368,
+          "raw": 1558,
           "tier": 3
         }
       },
       "spec": "Fury",
       "stats": {
+        "critters": 1,
         "deaths": 8,
-        "flights": 4,
+        "flights": 5,
         "health_potions": 2,
-        "hearths": 3,
-        "killing_blows": 535,
-        "mobs": 782,
-        "quests": 97
+        "hearths": 4,
+        "killing_blows": 548,
+        "mobs": 794,
+        "quests": 104
       },
-      "xp": 1524
+      "xp": 10649
     },
     "us:shae-theslay": {
       "achievements": {},
@@ -2407,6 +2414,7 @@
     "cora": {
       "achievements": {
         "61994": "Novice Mage",
+        "62006": "Novice Shaman",
         "728": "Explore Durotar"
       },
       "mounts": {}
