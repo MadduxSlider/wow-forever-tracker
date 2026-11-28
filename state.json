@@ -16,11 +16,11 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795672102000,
+      "last_login": 1795863675000,
       "level": 13,
       "professions": {
         "Cooking": 1,
-        "Enchanting": 40,
+        "Enchanting": 43,
         "First Aid": 21,
         "Tailoring": 95
       },
@@ -799,9 +799,13 @@
         "250620": {
           "name": "Gemmed Copper Boots",
           "quality": "RARE"
+        },
+        "286981": {
+          "name": "Death Bindings",
+          "quality": "RARE"
         }
       },
-      "last_login": 1795333719000,
+      "last_login": 1795863739000,
       "level": 16,
       "professions": {
         "Blacksmithing": 71,
@@ -1304,7 +1308,7 @@
           "quality": "RARE"
         }
       },
-      "last_login": 1795581114000,
+      "last_login": 1795863863000,
       "level": 26,
       "professions": {
         "Alchemy": 115,
